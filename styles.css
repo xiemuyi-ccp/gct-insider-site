@@ -399,6 +399,16 @@ a {
   font-size: 20px;
 }
 
+.holding-primary {
+  grid-column: span 2;
+  background: #edf7f4;
+  border-color: rgba(15, 118, 110, 0.28);
+}
+
+.holding-primary strong {
+  font-size: 28px;
+}
+
 .timeline {
   display: grid;
   gap: 10px;
@@ -463,7 +473,7 @@ input {
 table {
   width: 100%;
   border-collapse: collapse;
-  min-width: 1120px;
+  min-width: 1420px;
 }
 
 th,
@@ -646,6 +656,10 @@ tbody tr:hover {
   .plans-grid,
   .plan-meta {
     grid-template-columns: 1fr;
+  }
+
+  .holding-primary {
+    grid-column: auto;
   }
 
   .hero,

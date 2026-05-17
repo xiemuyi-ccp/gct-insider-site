@@ -96,7 +96,7 @@ function totals() {
   const pendingPlans = DATA.plans.filter((plan) => /尚未/.test(plan.status));
   const beneficialTotal = DATA.people
     .filter((person) => CORE_IDS.includes(person.id))
-    .reduce((sum, person) => sum + person.beneficial.totalEquivalent, 0);
+    .reduce((sum, person) => sum + person.currentHolding.totalEquivalent, 0);
   return {
     coreSaleShares: coreSales.reduce((sum, row) => sum + row.shares, 0),
     coreSaleValue: coreSales.reduce((sum, row) => sum + row.transactionValue, 0),
@@ -154,9 +154,9 @@ function renderOverview() {
         <small>${fmtMoney(t.pendingValue)}，来自 2026-05-11 Form 144</small>
       </div>
       <div class="kpi">
-        <span>Proxy 口径核心管理层持股</span>
+        <span>核心管理层最新剩余总持股</span>
         <strong>${fmtShares(t.beneficialTotal)}</strong>
-        <small>Class A + Class B 等效股，主要为 2026-03-31 披露</small>
+        <small>Class A + Class B 等效股，按最新已知 Form 4 调整</small>
       </div>
       <div class="kpi">
         <span>最新普通股股本口径</span>
@@ -198,7 +198,7 @@ function renderOverview() {
       <div class="section-head">
         <div>
           <h2>人员子页面</h2>
-          <p>每个页面包含履历、持股主体、当前披露持股、交易前后持股和相关披露原因。</p>
+          <p>每个页面包含履历、持股主体、最新剩余总持股、每笔交易前后总持股占比和相关披露原因。</p>
         </div>
       </div>
       <div class="people-grid">${peopleCards}</div>
@@ -217,12 +217,12 @@ function personCard(person) {
       </div>
       <div class="mini-stats">
         <div>
-          <span>披露持股</span>
-          <strong>${fmtShares(person.beneficial.totalEquivalent)}</strong>
+          <span>剩余总持股</span>
+          <strong>${fmtShares(person.currentHolding.totalEquivalent)}</strong>
         </div>
         <div>
-          <span>估算市值</span>
-          <strong>${fmtMoney(person.beneficial.estimatedValue)}</strong>
+          <span>占最新总股本</span>
+          <strong>${fmtPct(person.currentHolding.pctOfLatestShares)}</strong>
         </div>
         <div>
           <span>累计减持</span>
@@ -251,10 +251,11 @@ function transactionTable(rows, includePerson = true) {
             <th class="number">股数</th>
             <th class="number">价格</th>
             <th class="number">金额</th>
-            <th class="number">交易前持股</th>
-            <th class="number">交易后持股</th>
-            <th class="number">占变动前持股</th>
-            <th class="number">占总股本</th>
+            <th class="number">主体持股前</th>
+            <th class="number">主体持股后</th>
+            <th class="number">该高管总持股前</th>
+            <th class="number">该高管总持股后</th>
+            <th class="number">本次变动/总股本</th>
             <th>披露原因</th>
             <th>来源</th>
           </tr>
@@ -271,8 +272,9 @@ function transactionTable(rows, includePerson = true) {
               <td class="number">${fmtMoney(row.transactionValue)}</td>
               <td class="number">${fmtShares(row.preShares)}<br><span class="bar-label">${fmtMoney(row.preValue)} / ${fmtPct(row.prePctOfCompany)}</span></td>
               <td class="number">${fmtShares(row.postShares)}<br><span class="bar-label">${fmtMoney(row.postValue)} / ${fmtPct(row.postPctOfCompany)}</span></td>
-              <td class="number">${fmtPct(row.transactionPctOfPreHolding)}</td>
-              <td class="number">${fmtPct(row.transactionPctOfCompany)}<br><span class="bar-label">${html(row.sharesOutstandingSource)}</span></td>
+              <td class="number">${fmtShares(row.personPreTotalShares)}<br><span class="bar-label">${fmtPct(row.personPrePctOfCompany)} / ${fmtMoney(row.personPreValue)}</span></td>
+              <td class="number">${fmtShares(row.personPostTotalShares)}<br><span class="bar-label">${fmtPct(row.personPostPctOfCompany)} / ${fmtMoney(row.personPostValue)}</span></td>
+              <td class="number">${row.personDeltaShares > 0 ? "+" : ""}${fmtShares(row.personDeltaShares)}<br><span class="bar-label">${fmtPct(row.transactionPctOfCompany)} · ${html(row.sharesOutstandingSource)}</span></td>
               <td class="reason">${html(row.reason)}</td>
               <td><a class="source-link" href="${html(row.source.url)}" target="_blank" rel="noreferrer">SEC</a><br><span class="bar-label">${html(row.source.accession)}</span></td>
             </tr>
@@ -317,27 +319,33 @@ function renderPerson(id) {
     <section class="section">
       <div class="section-head">
         <div>
-          <h2>持股概览</h2>
-          <p>${html(person.beneficial.note)}</p>
+          <h2>当前剩余总持股</h2>
+          <p>${html(person.currentHolding.note)} Proxy 原始口径：${html(person.beneficial.note)}</p>
         </div>
       </div>
       <div class="holdings">
+        <div class="holding holding-primary">
+          <span>最新已知剩余总股份</span>
+          <strong>${fmtShares(person.currentHolding.totalEquivalent)}</strong>
+          <span>${html(person.currentHolding.asOf)} · ${html(person.currentHolding.source)}</span>
+        </div>
         <div class="holding">
-          <span>Class A</span>
+          <span>Proxy Class A</span>
           <strong>${fmtShares(person.beneficial.classA)}</strong>
         </div>
         <div class="holding">
-          <span>Class B</span>
+          <span>Proxy Class B</span>
           <strong>${fmtShares(person.beneficial.classB)}</strong>
         </div>
         <div class="holding">
-          <span>A+B 等效持股</span>
-          <strong>${fmtShares(person.beneficial.totalEquivalent)}</strong>
+          <span>占最新普通股股本</span>
+          <strong>${fmtPct(person.currentHolding.pctOfLatestShares)}</strong>
+          <span>${fmtShares(DATA.shareTimeline.at(-1).total)} 股为分母</span>
         </div>
         <div class="holding">
-          <span>估算市值 / 占总股本</span>
-          <strong>${fmtMoney(person.beneficial.estimatedValue)}</strong>
-          <span>${fmtPct(person.beneficial.pctTotal)}</span>
+          <span>估算市值</span>
+          <strong>${fmtMoney(person.currentHolding.value)}</strong>
+          <span>按 ${fmtPrice(DATA.referencePrice)} / 股</span>
         </div>
       </div>
     </section>
@@ -353,6 +361,7 @@ function renderPerson(id) {
           <div><dt>职务</dt><dd>${html(person.role)}</dd></div>
           <div><dt>加入时间</dt><dd>${html(person.joined)}</dd></div>
           <div><dt>持有主体</dt><dd>${person.entities.map((entity) => `<span class="chip">${html(entity)}</span>`).join(" ")}</dd></div>
+          <div><dt>剩余总持股</dt><dd>${fmtShares(person.currentHolding.totalEquivalent)} 股，占最新普通股股本 ${fmtPct(person.currentHolding.pctOfLatestShares)}</dd></div>
           <div><dt>表决权</dt><dd>${person.beneficial.votingPower === null ? "未达 1% 或未单独列示" : fmtPct(person.beneficial.votingPower)}</dd></div>
         </dl>
         <div class="table-wrap">
@@ -395,7 +404,7 @@ function renderPerson(id) {
       <div class="section-head">
         <div>
           <h2>历次增减持与股权变动</h2>
-          <p>交易前后持股为 Form 4 对应直接/间接主体的行项目口径。</p>
+          <p>“主体持股前/后”为 Form 4 对应直接或间接主体行项目；“该高管总持股前/后”为该高管实益持股整体口径，并显示占公司总股本比例。</p>
         </div>
       </div>
       ${transactionTable(rows, false)}

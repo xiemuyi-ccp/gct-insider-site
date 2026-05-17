@@ -1,6 +1,6 @@
 window.GCT_INSIDER_DATA = {
-  "generatedAt": "2026-05-15T14:35:26.064Z",
-  "currentDate": "2026-05-15",
+  "generatedAt": "2026-05-17T09:07:34.075Z",
+  "currentDate": "2026-05-17",
   "company": {
     "name": "GigaCloud Technology Inc.",
     "ticker": "GCT",
@@ -9,6 +9,7 @@ window.GCT_INSIDER_DATA = {
   "assumptions": [
     "Class B 普通股可按 1:1 转换为 Class A，页面将 Class B 按等效普通股纳入口径。",
     "交易占总股本比例使用交易日之前最近一期 10-K/10-Q 披露的 Class A + Class B 普通股数估算。",
+    "每笔交易的“高管总持股前/后”以最新 Proxy 实益持股为锚点，向前和向后叠加 Form 4 变动；Class B 转 Class A 和内部转移不改变总持股。",
     "Form 4 的 S/P 交易金额按披露的加权平均成交价乘以股数；授予、转换和税款预扣不视为现金交易金额。",
     "当前持仓市值参考价使用 2026-05-11 Form 144 的隐含价格 $40.18 / 股。",
     "Form 144 是拟售通知，不等同于已完成出售；页面将其与后续 Form 4 分开展示。"
@@ -119,6 +120,14 @@ window.GCT_INSIDER_DATA = {
         "awardsShares": 370000,
         "taxWithheldShares": 0,
         "transactionCount": 75
+      },
+      "currentHolding": {
+        "asOf": "2026-04-07",
+        "totalEquivalent": 7316732,
+        "pctOfLatestShares": 0.19889186236363843,
+        "value": 293986291.76,
+        "source": "Proxy + subsequent Form 4",
+        "note": "以 Proxy 实益持股为锚点，叠加披露日之后的 Form 4 变动。"
       }
     },
     {
@@ -150,6 +159,14 @@ window.GCT_INSIDER_DATA = {
         "awardsShares": 25000,
         "taxWithheldShares": 0,
         "transactionCount": 2
+      },
+      "currentHolding": {
+        "asOf": "2026-04-07",
+        "totalEquivalent": 31000,
+        "pctOfLatestShares": 0.0008426778148048598,
+        "value": 1245580,
+        "source": "Proxy + subsequent Form 4",
+        "note": "以 Proxy 实益持股为锚点，叠加披露日之后的 Form 4 变动。"
       }
     },
     {
@@ -181,6 +198,14 @@ window.GCT_INSIDER_DATA = {
         "awardsShares": 64138,
         "taxWithheldShares": 0,
         "transactionCount": 24
+      },
+      "currentHolding": {
+        "asOf": "2026-04-10",
+        "totalEquivalent": 374986,
+        "pctOfLatestShares": 0.010193302679432746,
+        "value": 15066937.48,
+        "source": "Proxy + subsequent Form 4",
+        "note": "以 Proxy 实益持股为锚点，叠加披露日之后的 Form 4 变动。"
       }
     },
     {
@@ -214,6 +239,14 @@ window.GCT_INSIDER_DATA = {
         "awardsShares": 35600,
         "taxWithheldShares": 0,
         "transactionCount": 10
+      },
+      "currentHolding": {
+        "asOf": "2026-04-10",
+        "totalEquivalent": 733140,
+        "pctOfLatestShares": 0.01992905848858177,
+        "value": 29457565.2,
+        "source": "Proxy + subsequent Form 4",
+        "note": "以 Proxy 实益持股为锚点，叠加披露日之后的 Form 4 变动。"
       }
     },
     {
@@ -245,6 +278,14 @@ window.GCT_INSIDER_DATA = {
         "awardsShares": 19000,
         "taxWithheldShares": 1621,
         "transactionCount": 6
+      },
+      "currentHolding": {
+        "asOf": "2026-04-14",
+        "totalEquivalent": 23379,
+        "pctOfLatestShares": 0.0006355149881394457,
+        "value": 939368.22,
+        "source": "Proxy + subsequent Form 4",
+        "note": "以 Proxy 实益持股为锚点，叠加披露日之后的 Form 4 变动。"
       }
     },
     {
@@ -277,6 +318,14 @@ window.GCT_INSIDER_DATA = {
         "awardsShares": 27150,
         "taxWithheldShares": 0,
         "transactionCount": 6
+      },
+      "currentHolding": {
+        "asOf": "2026-04-07",
+        "totalEquivalent": 68150,
+        "pctOfLatestShares": 0.0018525320348048771,
+        "value": 2738267,
+        "source": "Proxy + subsequent Form 4",
+        "note": "以 Proxy 实益持股为锚点，叠加披露日之后的 Form 4 变动。"
       }
     },
     {
@@ -308,6 +357,14 @@ window.GCT_INSIDER_DATA = {
         "awardsShares": 28000,
         "taxWithheldShares": 0,
         "transactionCount": 2
+      },
+      "currentHolding": {
+        "asOf": "2024-04-10",
+        "totalEquivalent": 55803,
+        "pctOfLatestShares": 0.0015169016161146963,
+        "value": 2242164.54,
+        "source": "Proxy beneficial ownership table",
+        "note": "Proxy 披露口径，未纳入披露日之后的 Form 4 变动。"
       }
     },
     {
@@ -339,6 +396,14 @@ window.GCT_INSIDER_DATA = {
         "awardsShares": 0,
         "taxWithheldShares": 0,
         "transactionCount": 19
+      },
+      "currentHolding": {
+        "asOf": "2024-12-06",
+        "totalEquivalent": 1406813,
+        "pctOfLatestShares": 0.03824161627996997,
+        "value": 56525746.339999996,
+        "source": "Proxy + subsequent Form 4",
+        "note": "以 Proxy 实益持股为锚点，叠加披露日之后的 Form 4 变动。"
       }
     },
     {
@@ -370,6 +435,14 @@ window.GCT_INSIDER_DATA = {
         "awardsShares": 17122,
         "taxWithheldShares": 0,
         "transactionCount": 16
+      },
+      "currentHolding": {
+        "asOf": "2026-03-31",
+        "totalEquivalent": 39668,
+        "pctOfLatestShares": 0.001078301405086425,
+        "value": 1593860.24,
+        "source": "Proxy beneficial ownership table",
+        "note": "Proxy 披露口径，未纳入披露日之后的 Form 4 变动。"
       }
     }
   ],
@@ -407,7 +480,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-04-15_4_0002004299-26-000003_xslF345X06_wk-form4_1776303869.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000200429926000003/wk-form4_1776303869.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -1621,
+      "personPreTotalShares": 25000,
+      "personPostTotalShares": 23379,
+      "personPrePctOfCompany": 0.0006827226465737933,
+      "personPostPctOfCompany": 0.0006384549101699485,
+      "personPreValue": 1093750,
+      "personPostValue": 1022831.25
     },
     {
       "id": "0002004141-26-000003-hao-2026-04-10-M-169",
@@ -442,7 +522,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-04-14_4_0002004141-26-000003_xslF345X06_wk-form4_1776216192.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000200414126000003/wk-form4_1776216192.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 7500,
+      "personPreTotalShares": 367486,
+      "personPostTotalShares": 374986,
+      "personPrePctOfCompany": 0.01003564057995268,
+      "personPostPctOfCompany": 0.010240457373924818,
+      "personPreValue": 14765587.48,
+      "personPostValue": 15066937.48
     },
     {
       "id": "0002004239-26-000009-wan-2026-04-10-M-170",
@@ -475,7 +562,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-04-14_4_0002004239-26-000009_xslF345X06_wk-form4_1776216186.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000200423926000009/wk-form4_1776216186.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 5500,
+      "personPreTotalShares": 727640,
+      "personPostTotalShares": 733140,
+      "personPrePctOfCompany": 0.0198710522621182,
+      "personPostPctOfCompany": 0.020021251244364432,
+      "personPreValue": 29236575.2,
+      "personPostValue": 29457565.2
     },
     {
       "id": "0001962329-26-000046-wu-2026-04-07-A-163",
@@ -510,7 +604,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-04-09_4_0001962329-26-000046_xslF345X06_wk-form4_1775783767.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000046/wk-form4_1775783767.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 90000,
+      "personPreTotalShares": 7226732,
+      "personPostTotalShares": 7316732,
+      "personPrePctOfCompany": 0.1973541438847809,
+      "personPostPctOfCompany": 0.19981194541244654,
+      "personPreValue": 290370091.76,
+      "personPostValue": 293986291.76
     },
     {
       "id": "0002033954-26-000001-wei-2026-04-07-A-167",
@@ -545,7 +646,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-04-09_4_0002033954-26-000001_xslF345X06_wk-form4_1775783788.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000203395426000001/wk-form4_1775783788.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 12000,
+      "personPreTotalShares": 19000,
+      "personPostTotalShares": 31000,
+      "personPrePctOfCompany": 0.0005188692113960829,
+      "personPostPctOfCompany": 0.0008465760817515036,
+      "personPreValue": 763420,
+      "personPostValue": 1245580
     },
     {
       "id": "0002004141-26-000001-hao-2026-04-07-A-164",
@@ -581,7 +689,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-04-09_4_0002004141-26-000001_xslF345X06_wk-form4_1775783774.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000200414126000001/wk-form4_1775783774.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 10000,
+      "personPreTotalShares": 357486,
+      "personPostTotalShares": 367486,
+      "personPrePctOfCompany": 0.009762551521323163,
+      "personPostPctOfCompany": 0.01003564057995268,
+      "personPreValue": 14363787.48,
+      "personPostValue": 14765587.48
     },
     {
       "id": "0002045034-26-000001-bernes-2026-04-07-A-168",
@@ -617,7 +732,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-04-09_4_0002045034-26-000001_xslF345X06_wk-form4_1775783759.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000204503426000001/wk-form4_1775783759.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 7150,
+      "personPreTotalShares": 61000,
+      "personPostTotalShares": 68150,
+      "personPrePctOfCompany": 0.0016658432576400555,
+      "personPostPctOfCompany": 0.0018611019345601604,
+      "personPreValue": 2450980,
+      "personPostValue": 2738267
     },
     {
       "id": "0002004299-26-000001-schrock-2026-04-07-A-166",
@@ -652,7 +774,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-04-09_4_0002004299-26-000001_xslF345X06_wk-form4_1775783782.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000200429926000001/wk-form4_1775783782.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 5000,
+      "personPreTotalShares": 20000,
+      "personPostTotalShares": 25000,
+      "personPrePctOfCompany": 0.0005461781172590346,
+      "personPostPctOfCompany": 0.0006827226465737933,
+      "personPreValue": 803600,
+      "personPostValue": 1004500
     },
     {
       "id": "0002004239-26-000005-wan-2026-04-07-A-165",
@@ -687,7 +816,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-04-09_4_0002004239-26-000005_xslF345X06_wk-form4_1775783795.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000200423926000005/wk-form4_1775783795.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 4600,
+      "personPreTotalShares": 723040,
+      "personPostTotalShares": 727640,
+      "personPrePctOfCompany": 0.019745431295148618,
+      "personPostPctOfCompany": 0.0198710522621182,
+      "personPreValue": 29051747.2,
+      "personPostValue": 29236575.2
     },
     {
       "id": "0001962329-26-000043-wu-2026-04-06-G-162",
@@ -723,7 +859,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-04-07_4_0001962329-26-000043_xslF345X06_wk-form4_1775610310.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000043/wk-form4_1775610310.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -110000,
+      "personPreTotalShares": 7336732,
+      "personPostTotalShares": 7226732,
+      "personPrePctOfCompany": 0.20035812352970558,
+      "personPostPctOfCompany": 0.1973541438847809,
+      "personPreValue": 294789891.76,
+      "personPostValue": 290370091.76
     },
     {
       "id": "0001962329-26-000041-wu-2026-03-30-M-161",
@@ -758,7 +901,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-04-01_4_0001962329-26-000041_xslF345X06_wk-form4_1775091336.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000041/wk-form4_1775091336.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 120000,
+      "personPostTotalShares": 7336732,
+      "personPreTotalShares": 7216732,
+      "personPrePctOfCompany": 0.19708105482615138,
+      "personPostPctOfCompany": 0.20035812352970558,
+      "personPreValue": 289968291.76,
+      "personPostValue": 294789891.76
     },
     {
       "id": "0001962329-26-000039-wu-2026-03-20-S-158",
@@ -799,7 +949,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-03-20_4_0001962329-26-000039_xslF345X06_wk-form4_1774054366.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000039/wk-form4_1774054366.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -32481,
+      "personPostTotalShares": 7216732,
+      "personPreTotalShares": 7249213,
+      "personPrePctOfCompany": 0.1979680753974859,
+      "personPostPctOfCompany": 0.19708105482615138,
+      "personPreValue": 292971382.7859703,
+      "personPostValue": 291658688.0859703
     },
     {
       "id": "0001962329-26-000039-wu-2026-03-19-J-159",
@@ -837,7 +994,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-03-20_4_0001962329-26-000039_xslF345X06_wk-form4_1774054366.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000039/wk-form4_1774054366.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 0,
+      "personPostTotalShares": 7276732,
+      "personPreTotalShares": 7276732,
+      "personPrePctOfCompany": 0.19871958917792848,
+      "personPostPctOfCompany": 0.19871958917792848,
+      "personPreValue": 292379091.76,
+      "personPostValue": 292379091.76
     },
     {
       "id": "0001962329-26-000039-wu-2026-03-19-J-160",
@@ -872,7 +1036,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-03-20_4_0001962329-26-000039_xslF345X06_wk-form4_1774054366.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000039/wk-form4_1774054366.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 0,
+      "personPostTotalShares": 7276732,
+      "personPreTotalShares": 7276732,
+      "personPrePctOfCompany": 0.19871958917792848,
+      "personPostPctOfCompany": 0.19871958917792848,
+      "personPreValue": 292379091.76,
+      "personPostValue": 292379091.76
     },
     {
       "id": "0001962329-26-000039-wu-2026-03-19-S-157",
@@ -912,7 +1083,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-03-20_4_0001962329-26-000039_xslF345X06_wk-form4_1774054366.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000039/wk-form4_1774054366.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -27519,
+      "personPostTotalShares": 7249213,
+      "personPreTotalShares": 7276732,
+      "personPrePctOfCompany": 0.19871958917792848,
+      "personPostPctOfCompany": 0.1979680753974859,
+      "personPreValue": 300219833.29111373,
+      "personPostValue": 299084467.91111374
     },
     {
       "id": "0001962329-26-000036-wu-2026-03-18-S-156",
@@ -952,7 +1130,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-03-18_4_0001962329-26-000036_xslF345X06_wk-form4_1773883014.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000036/wk-form4_1773883014.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -30000,
+      "personPostTotalShares": 7276732,
+      "personPreTotalShares": 7306732,
+      "personPrePctOfCompany": 0.19953885635381702,
+      "personPostPctOfCompany": 0.19871958917792848,
+      "personPreValue": 315723419.65357465,
+      "personPostValue": 314427121.58357465
     },
     {
       "id": "0001962329-26-000036-wu-2026-03-17-S-155",
@@ -993,7 +1178,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-03-18_4_0001962329-26-000036_xslF345X06_wk-form4_1773883014.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000036/wk-form4_1773883014.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -30000,
+      "personPostTotalShares": 7306732,
+      "personPreTotalShares": 7336732,
+      "personPrePctOfCompany": 0.20035812352970558,
+      "personPostPctOfCompany": 0.19953885635381702,
+      "personPreValue": 319740319.79266,
+      "personPostValue": 318432897.14265996
     },
     {
       "id": "0001962329-26-000036-wu-2026-03-16-S-154",
@@ -1033,7 +1225,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-03-18_4_0001962329-26-000036_xslF345X06_wk-form4_1773883014.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000036/wk-form4_1773883014.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -30000,
+      "personPostTotalShares": 7336732,
+      "personPreTotalShares": 7366732,
+      "personPrePctOfCompany": 0.20117739070559412,
+      "personPostPctOfCompany": 0.20035812352970558,
+      "personPreValue": 312280312.2980667,
+      "personPostValue": 311008593.7980667
     },
     {
       "id": "0001962329-26-000033-wu-2026-03-13-S-153",
@@ -1073,7 +1272,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-03-16_4_0001962329-26-000033_xslF345X05_wk-form4_1773659566.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000033/wk-form4_1773659566.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -30000,
+      "personPostTotalShares": 7366732,
+      "personPreTotalShares": 7396732,
+      "personPrePctOfCompany": 0.2019966578814827,
+      "personPostPctOfCompany": 0.20117739070559412,
+      "personPreValue": 305904968.73141336,
+      "personPostValue": 304664265.5314134
     },
     {
       "id": "0001962329-26-000033-wu-2026-03-12-S-152",
@@ -1113,7 +1319,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-03-16_4_0001962329-26-000033_xslF345X05_wk-form4_1773659566.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000033/wk-form4_1773659566.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -30000,
+      "personPostTotalShares": 7396732,
+      "personPreTotalShares": 7426732,
+      "personPrePctOfCompany": 0.20281592505737123,
+      "personPostPctOfCompany": 0.2019966578814827,
+      "personPreValue": 317317180.495128,
+      "personPostValue": 316035389.87512803
     },
     {
       "id": "0001962329-26-000033-wu-2026-03-11-S-151",
@@ -1153,7 +1366,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-03-16_4_0001962329-26-000033_xslF345X05_wk-form4_1773659566.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000033/wk-form4_1773659566.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -30000,
+      "personPostTotalShares": 7426732,
+      "personPreTotalShares": 7456732,
+      "personPrePctOfCompany": 0.2036351922332598,
+      "personPostPctOfCompany": 0.20281592505737123,
+      "personPreValue": 323440341.3613347,
+      "personPostValue": 322139072.89133465
     },
     {
       "id": "0001962329-26-000014-wu-2026-03-10-S-150",
@@ -1194,7 +1414,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-03-10_4_0001962329-26-000014_xslF345X05_wk-form4_1773191213.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000014/wk-form4_1773191213.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -30000,
+      "personPostTotalShares": 7456732,
+      "personPreTotalShares": 7486732,
+      "personPrePctOfCompany": 0.20445445940914833,
+      "personPostPctOfCompany": 0.2036351922332598,
+      "personPreValue": 323655567.0183733,
+      "personPostValue": 322358650.41837335
     },
     {
       "id": "0001962329-26-000014-wu-2026-03-09-S-149",
@@ -1236,7 +1463,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-03-10_4_0001962329-26-000014_xslF345X05_wk-form4_1773191213.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000014/wk-form4_1773191213.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -30000,
+      "personPostTotalShares": 7486732,
+      "personPreTotalShares": 7516732,
+      "personPrePctOfCompany": 0.2052737265850369,
+      "personPostPctOfCompany": 0.20445445940914833,
+      "personPreValue": 316648140.92268133,
+      "personPostValue": 315384367.7526813
     },
     {
       "id": "0001962329-26-000014-wu-2026-03-06-S-148",
@@ -1275,7 +1509,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-03-10_4_0001962329-26-000014_xslF345X05_wk-form4_1773191213.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000014/wk-form4_1773191213.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -30000,
+      "personPostTotalShares": 7516732,
+      "personPreTotalShares": 7546732,
+      "personPrePctOfCompany": 0.20609299376092544,
+      "personPostPctOfCompany": 0.2052737265850369,
+      "personPreValue": 318034379.944,
+      "personPostValue": 316770119.944
     },
     {
       "id": "0002004239-26-000003-wan-2026-03-05-S-147",
@@ -1312,7 +1553,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-03-05_4_0002004239-26-000003_xslF345X05_wk-form4_1772763770.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000200423926000003/wk-form4_1772763770.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -100000,
+      "personPostTotalShares": 723040,
+      "personPreTotalShares": 823040,
+      "personPrePctOfCompany": 0.022476321881443793,
+      "personPostPctOfCompany": 0.019745431295148618,
+      "personPreValue": 35703475.2,
+      "personPostValue": 31365475.200000003
     },
     {
       "id": "0001962329-26-000012-wu-2026-03-05-S-146",
@@ -1352,7 +1600,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-03-05_4_0001962329-26-000012_xslF345X05_wk-form4_1772763526.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000012/wk-form4_1772763526.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -30000,
+      "personPostTotalShares": 7546732,
+      "personPreTotalShares": 7576732,
+      "personPrePctOfCompany": 0.206912260936814,
+      "personPostPctOfCompany": 0.20609299376092544,
+      "personPreValue": 326660457.94082,
+      "personPostValue": 325367048.89081997
     },
     {
       "id": "0001962329-26-000012-wu-2026-03-04-S-145",
@@ -1393,7 +1648,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-03-05_4_0001962329-26-000012_xslF345X05_wk-form4_1772763526.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000012/wk-form4_1772763526.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -40000,
+      "personPostTotalShares": 7576732,
+      "personPreTotalShares": 7616732,
+      "personPrePctOfCompany": 0.20800461717133206,
+      "personPostPctOfCompany": 0.206912260936814,
+      "personPreValue": 335707996.07124,
+      "personPostValue": 333944993.27124006
     },
     {
       "id": "0001962329-26-000012-wu-2026-03-03-S-144",
@@ -1434,7 +1696,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-03-05_4_0001962329-26-000012_xslF345X05_wk-form4_1772763526.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000012/wk-form4_1772763526.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -58090,
+      "personPostTotalShares": 7616732,
+      "personPreTotalShares": 7674822,
+      "personPrePctOfCompany": 0.20959099151291094,
+      "personPostPctOfCompany": 0.20800461717133206,
+      "personPreValue": 314602652.9620985,
+      "personPostValue": 312221455.31209844
     },
     {
       "id": "0001962329-26-000010-wu-2026-03-02-S-143",
@@ -1474,7 +1743,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-03-02_4_0001962329-26-000010_xslF345X05_wk-form4_1772502055.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000010/wk-form4_1772502055.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -30000,
+      "personPostTotalShares": 7674822,
+      "personPreTotalShares": 7704822,
+      "personPrePctOfCompany": 0.21041025868879948,
+      "personPostPctOfCompany": 0.20959099151291094,
+      "personPreValue": 330019716.14735997,
+      "personPostValue": 328734729.74736
     },
     {
       "id": "0001962329-26-000010-wu-2026-02-27-S-142",
@@ -1517,7 +1793,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-03-02_4_0001962329-26-000010_xslF345X05_wk-form4_1772502055.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000010/wk-form4_1772502055.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -60000,
+      "personPostTotalShares": 7704822,
+      "personPreTotalShares": 7764822,
+      "personPrePctOfCompany": 0.21204879304057658,
+      "personPostPctOfCompany": 0.21041025868879948,
+      "personPreValue": 338341760.377452,
+      "personPostValue": 335727340.41745204
     },
     {
       "id": "0001962329-26-000010-wu-2026-02-26-S-141",
@@ -1561,7 +1844,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-03-02_4_0001962329-26-000010_xslF345X05_wk-form4_1772502055.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000010/wk-form4_1772502055.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -70000,
+      "personPostTotalShares": 7764822,
+      "personPreTotalShares": 7834822,
+      "personPrePctOfCompany": 0.2139604164509832,
+      "personPostPctOfCompany": 0.21204879304057658,
+      "personPreValue": 354787349.4540326,
+      "personPostValue": 351617511.7140326
     },
     {
       "id": "0001857816-26-000007-directors-2026-02-17-A-138",
@@ -1596,7 +1886,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-02-17_4_0001857816-26-000007_xslF345X05_wk-form4_1771378943.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781626000007/wk-form4_1771378943.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 808,
+      "personPostTotalShares": 39668,
+      "personPreTotalShares": 38860,
+      "personPrePctOfCompany": 0.001048662019523356,
+      "personPostPctOfCompany": 0.0010704664176647575,
+      "personPreValue": 1561394.8,
+      "personPostValue": 1593860.24
     },
     {
       "id": "0001962329-26-000008-wu-2026-01-22-S-137",
@@ -1636,7 +1933,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-01-22_4_0001962329-26-000008_xslF345X05_wk-form4_1769129883.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000008/wk-form4_1769129883.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -20000,
+      "personPostTotalShares": 7834822,
+      "personPreTotalShares": 7854822,
+      "personPrePctOfCompany": 0.2119674086854474,
+      "personPostPctOfCompany": 0.21142769586016516,
+      "personPreValue": 320346850.263408,
+      "personPostValue": 319531180.98340803
     },
     {
       "id": "0001962329-26-000008-wu-2026-01-21-S-136",
@@ -1675,7 +1979,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-01-22_4_0001962329-26-000008_xslF345X05_wk-form4_1769129883.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000008/wk-form4_1769129883.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -210,
+      "personPostTotalShares": 7854822,
+      "personPreTotalShares": 7855032,
+      "personPrePctOfCompany": 0.21197307567011284,
+      "personPostPctOfCompany": 0.2119674086854474,
+      "personPreValue": 316243588.32000005,
+      "personPostValue": 316235133.72
     },
     {
       "id": "0001962329-26-000008-wu-2026-01-20-S-135",
@@ -1714,7 +2025,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-01-22_4_0001962329-26-000008_xslF345X05_wk-form4_1769129883.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000008/wk-form4_1769129883.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -1700,
+      "personPostTotalShares": 7855032,
+      "personPreTotalShares": 7856732,
+      "personPrePctOfCompany": 0.21201895126026182,
+      "personPostPctOfCompany": 0.21197307567011284,
+      "personPreValue": 314347847.32,
+      "personPostValue": 314279830.32
     },
     {
       "id": "0001962329-26-000006-wu-2026-01-16-S-134",
@@ -1754,7 +2072,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-01-16_4_0001962329-26-000006_xslF345X05_wk-form4_1768611440.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000006/wk-form4_1768611440.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -20000,
+      "personPostTotalShares": 7856732,
+      "personPreTotalShares": 7876732,
+      "personPrePctOfCompany": 0.21255866408554405,
+      "personPostPctOfCompany": 0.21201895126026182,
+      "personPreValue": 325598832.323744,
+      "personPostValue": 324772096.483744
     },
     {
       "id": "0001962329-26-000006-wu-2026-01-15-S-133",
@@ -1794,7 +2119,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-01-16_4_0001962329-26-000006_xslF345X05_wk-form4_1768611440.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000006/wk-form4_1768611440.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -20000,
+      "personPostTotalShares": 7876732,
+      "personPreTotalShares": 7896732,
+      "personPrePctOfCompany": 0.21309837691082628,
+      "personPostPctOfCompany": 0.21255866408554405,
+      "personPreValue": 327735020.057448,
+      "personPostValue": 326904967.777448
     },
     {
       "id": "0001962329-26-000006-wu-2026-01-14-S-132",
@@ -1834,7 +2166,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-01-16_4_0001962329-26-000006_xslF345X05_wk-form4_1768611440.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000006/wk-form4_1768611440.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -20000,
+      "personPostTotalShares": 7896732,
+      "personPreTotalShares": 7916732,
+      "personPrePctOfCompany": 0.21363808973610848,
+      "personPostPctOfCompany": 0.21309837691082628,
+      "personPreValue": 324104587.610348,
+      "personPostValue": 323285803.830348
     },
     {
       "id": "0001962329-26-000004-wu-2026-01-13-S-131",
@@ -1876,7 +2215,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-01-13_4_0001962329-26-000004_xslF345X05_wk-form4_1768356329.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000004/wk-form4_1768356329.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -20000,
+      "personPostTotalShares": 7916732,
+      "personPreTotalShares": 7936732,
+      "personPrePctOfCompany": 0.2141778025613907,
+      "personPostPctOfCompany": 0.21363808973610848,
+      "personPreValue": 332270828.81791,
+      "personPostValue": 331433529.96791005
     },
     {
       "id": "0001962329-26-000004-wu-2026-01-12-S-130",
@@ -1917,7 +2263,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-01-13_4_0001962329-26-000004_xslF345X05_wk-form4_1768356329.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000004/wk-form4_1768356329.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -20000,
+      "personPostTotalShares": 7936732,
+      "personPreTotalShares": 7956732,
+      "personPrePctOfCompany": 0.21471751538667294,
+      "personPostPctOfCompany": 0.2141778025613907,
+      "personPreValue": 345222546.536994,
+      "personPostValue": 344354796.946994
     },
     {
       "id": "0001962329-26-000004-wu-2026-01-09-S-129",
@@ -1957,7 +2310,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-01-13_4_0001962329-26-000004_xslF345X05_wk-form4_1768356329.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000004/wk-form4_1768356329.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -20000,
+      "personPostTotalShares": 7956732,
+      "personPreTotalShares": 7976732,
+      "personPrePctOfCompany": 0.21525722821195517,
+      "personPostPctOfCompany": 0.21471751538667294,
+      "personPreValue": 335650492.86657006,
+      "personPostValue": 334808918.91657
     },
     {
       "id": "0001962329-26-000002-wu-2026-01-08-S-128",
@@ -1997,7 +2357,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-01-09_4_0001962329-26-000002_xslF345X05_wk-form4_1768003351.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000002/wk-form4_1768003351.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -20000,
+      "personPostTotalShares": 7976732,
+      "personPreTotalShares": 7996732,
+      "personPrePctOfCompany": 0.21579694103723737,
+      "personPostPctOfCompany": 0.21525722821195517,
+      "personPreValue": 331571121.844096,
+      "personPostValue": 330741855.284096
     },
     {
       "id": "0001962329-26-000002-wu-2026-01-07-S-127",
@@ -2037,7 +2404,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2026-01-09_4_0001962329-26-000002_xslF345X05_wk-form4_1768003351.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232926000002/wk-form4_1768003351.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -20000,
+      "personPostTotalShares": 7996732,
+      "personPreTotalShares": 8016732,
+      "personPrePctOfCompany": 0.2163366538625196,
+      "personPostPctOfCompany": 0.21579694103723737,
+      "personPreValue": 339619579.8294421,
+      "personPostValue": 338772302.9594421
     },
     {
       "id": "0001962329-25-000006-wu-2025-12-26-C-126",
@@ -2075,7 +2449,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-12-29_4_0001962329-25-000006_xslF345X05_wk-form4_1767055329.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232925000006/wk-form4_1767055329.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 0,
+      "personPostTotalShares": 8016732,
+      "personPreTotalShares": 8016732,
+      "personPrePctOfCompany": 0.2163366538625196,
+      "personPostPctOfCompany": 0.2163366538625196,
+      "personPreValue": 322112291.76,
+      "personPostValue": 322112291.76
     },
     {
       "id": "0002004141-25-000018-hao-2025-12-05-S-125",
@@ -2112,7 +2493,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-12-08_4_0002004141-25-000018_xslF345X05_wk-form4_1765237850.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000200414125000018/wk-form4_1765237850.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -800,
+      "personPostTotalShares": 357486,
+      "personPreTotalShares": 358286,
+      "personPrePctOfCompany": 0.009668577465953296,
+      "personPostPctOfCompany": 0.009646988952942007,
+      "personPreValue": 14344230.8102,
+      "personPostValue": 14312202.2502
     },
     {
       "id": "0002004141-25-000018-hao-2025-12-04-S-124",
@@ -2149,7 +2537,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-12-08_4_0002004141-25-000018_xslF345X05_wk-form4_1765237850.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000200414125000018/wk-form4_1765237850.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -49200,
+      "personPostTotalShares": 358286,
+      "personPreTotalShares": 407486,
+      "personPrePctOfCompany": 0.010996271016147561,
+      "personPostPctOfCompany": 0.009668577465953296,
+      "personPreValue": 16327475.0368,
+      "personPostValue": 14356090.076800002
     },
     {
       "id": "0002004141-25-000016-hao-2025-11-21-S-123",
@@ -2186,7 +2581,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-11-25_4_0002004141-25-000016_xslF345X05_wk-form4_1764115404.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000200414125000016/wk-form4_1764115404.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -100000,
+      "personPostTotalShares": 407486,
+      "personPreTotalShares": 507486,
+      "personPrePctOfCompany": 0.013694835142558667,
+      "personPostPctOfCompany": 0.010996271016147561,
+      "personPreValue": 17850921.547199998,
+      "personPostValue": 14333401.547199998
     },
     {
       "id": "0002004141-25-000014-hao-2025-11-19-S-122",
@@ -2223,7 +2625,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-11-19_4_0002004141-25-000014_xslF345X05_wk-form4_1763595629.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000200414125000014/wk-form4_1763595629.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -29319,
+      "personPostTotalShares": 507486,
+      "personPreTotalShares": 536805,
+      "personPrePctOfCompany": 0.014486027158781138,
+      "personPostPctOfCompany": 0.013694835142558667,
+      "personPreValue": 16913490.8985,
+      "personPostValue": 15989716.6422
     },
     {
       "id": "0002004141-25-000014-hao-2025-11-18-S-121",
@@ -2261,7 +2670,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-11-19_4_0002004141-25-000014_xslF345X05_wk-form4_1763595629.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000200414125000014/wk-form4_1763595629.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -30000,
+      "personPostTotalShares": 536805,
+      "personPreTotalShares": 566805,
+      "personPrePctOfCompany": 0.01529559639670447,
+      "personPostPctOfCompany": 0.014486027158781138,
+      "personPreValue": 17366971.70512,
+      "personPostValue": 16447768.18512
     },
     {
       "id": "0002004141-25-000014-hao-2025-11-17-S-120",
@@ -2298,7 +2714,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-11-19_4_0002004141-25-000014_xslF345X05_wk-form4_1763595629.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000200414125000014/wk-form4_1763595629.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -30000,
+      "personPostTotalShares": 566805,
+      "personPreTotalShares": 596805,
+      "personPrePctOfCompany": 0.016105165634627803,
+      "personPostPctOfCompany": 0.01529559639670447,
+      "personPreValue": 18095067.9195,
+      "personPostValue": 17185470.9195
     },
     {
       "id": "0001857816-25-000128-directors-2025-11-17-A-117",
@@ -2333,7 +2756,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-11-17_4_0001857816-25-000128_xslF345X05_wk-form4_1763428530.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781625000128/wk-form4_1763428530.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 936,
+      "personPostTotalShares": 38860,
+      "personPreTotalShares": 37924,
+      "personPrePctOfCompany": 0.0010234034593001478,
+      "personPostPctOfCompany": 0.001048662019523356,
+      "personPreValue": 1523786.32,
+      "personPostValue": 1561394.8
     },
     {
       "id": "0002004141-25-000012-hao-2025-11-14-S-116",
@@ -2370,7 +2800,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-11-14_4_0002004141-25-000012_xslF345X05_wk-form4_1763167715.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000200414125000012/wk-form4_1763167715.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -30000,
+      "personPostTotalShares": 596805,
+      "personPreTotalShares": 626805,
+      "personPrePctOfCompany": 0.016914734872551133,
+      "personPostPctOfCompany": 0.016105165634627803,
+      "personPreValue": 19067345.4195,
+      "personPostValue": 18154748.4195
     },
     {
       "id": "0002004141-25-000012-hao-2025-11-13-S-115",
@@ -2408,7 +2845,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-11-14_4_0002004141-25-000012_xslF345X05_wk-form4_1763167715.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000200414125000012/wk-form4_1763167715.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -30000,
+      "personPostTotalShares": 626805,
+      "personPreTotalShares": 656805,
+      "personPrePctOfCompany": 0.017724304110474466,
+      "personPostPctOfCompany": 0.016914734872551133,
+      "personPreValue": 21106822.757999998,
+      "personPostValue": 20142754.757999998
     },
     {
       "id": "0002004141-25-000012-hao-2025-11-12-S-114",
@@ -2446,7 +2890,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-11-14_4_0002004141-25-000012_xslF345X05_wk-form4_1763167715.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000200414125000012/wk-form4_1763167715.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -30000,
+      "personPostTotalShares": 656805,
+      "personPreTotalShares": 686805,
+      "personPrePctOfCompany": 0.018533873348397796,
+      "personPostPctOfCompany": 0.017724304110474466,
+      "personPreValue": 21617912.641079996,
+      "personPostValue": 20673630.961079996
     },
     {
       "id": "0002004141-25-000010-hao-2025-11-11-S-113",
@@ -2485,7 +2936,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-11-12_4_0002004141-25-000010_xslF345X05_wk-form4_1762945469.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000200414125000010/wk-form4_1762945469.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -30000,
+      "personPostTotalShares": 686805,
+      "personPreTotalShares": 716805,
+      "personPrePctOfCompany": 0.01934344258632113,
+      "personPostPctOfCompany": 0.018533873348397796,
+      "personPreValue": 22841564.769,
+      "personPostValue": 21885590.769
     },
     {
       "id": "0002004141-25-000010-hao-2025-11-10-S-112",
@@ -2523,7 +2981,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-11-12_4_0002004141-25-000010_xslF345X05_wk-form4_1762945469.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000200414125000010/wk-form4_1762945469.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -30000,
+      "personPostTotalShares": 716805,
+      "personPreTotalShares": 746805,
+      "personPrePctOfCompany": 0.020153011824244463,
+      "personPostPctOfCompany": 0.01934344258632113,
+      "personPreValue": 25096778.7079012,
+      "personPostValue": 24088612.7727012
     },
     {
       "id": "0002004141-25-000010-hao-2025-11-07-S-111",
@@ -2560,7 +3025,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-11-12_4_0002004141-25-000010_xslF345X05_wk-form4_1762945469.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000200414125000010/wk-form4_1762945469.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -30000,
+      "personPostTotalShares": 746805,
+      "personPreTotalShares": 776805,
+      "personPrePctOfCompany": 0.020962581062167793,
+      "personPostPctOfCompany": 0.020153011824244463,
+      "personPreValue": 23532919.072499998,
+      "personPostValue": 22624084.072499998
     },
     {
       "id": "0002004141-25-000008-hao-2025-10-29-S-110",
@@ -2597,7 +3069,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-10-30_4_0002004141-25-000008_xslF345X05_wk-form4_1761873112.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000200414125000008/wk-form4_1761873112.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -16939,
+      "personPostTotalShares": 776805,
+      "personPreTotalShares": 793744,
+      "personPrePctOfCompany": 0.02107318728798388,
+      "personPostPctOfCompany": 0.02062347211600002,
+      "personPreValue": 23822876.7952,
+      "personPostValue": 23314481.506500002
     },
     {
       "id": "0002004141-25-000006-hao-2025-09-29-S-109",
@@ -2634,7 +3113,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-09-30_4_0002004141-25-000006_xslF345X05_wk-form4_1759277410.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000200414125000006/wk-form4_1759277410.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -13742,
+      "personPostTotalShares": 793744,
+      "personPreTotalShares": 807486,
+      "personPrePctOfCompany": 0.021438024993480204,
+      "personPostPctOfCompany": 0.02107318728798388,
+      "personPreValue": 24241052.714399997,
+      "personPostValue": 23828512.3776
     },
     {
       "id": "0001857816-25-000108-wu-2025-09-10-S-108",
@@ -2671,7 +3157,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-09-10_4_0001857816-25-000108_xslF345X05_wk-form4_1757552409.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781625000108/wk-form4_1757552409.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -100000,
+      "personPostTotalShares": 8016732,
+      "personPreTotalShares": 8116732,
+      "personPrePctOfCompany": 0.21549191376863572,
+      "personPostPctOfCompany": 0.21283700396295732,
+      "personPreValue": 231468093.1368,
+      "personPostValue": 228616353.1368
     },
     {
       "id": "0002004299-25-000004-schrock-2025-08-21-S-107",
@@ -2706,7 +3199,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-08-22_4_0002004299-25-000004_xslF345X05_wk-form4_1755912399.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000200429925000004/wk-form4_1755912399.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -9000,
+      "personPostTotalShares": 20000,
+      "personPreTotalShares": 29000,
+      "personPrePctOfCompany": 0.0007699238436467331,
+      "personPostPctOfCompany": 0.000530981961135678,
+      "personPreValue": 868144,
+      "personPostValue": 598720
     },
     {
       "id": "0002045034-25-000003-bernes-2025-08-20-S-105",
@@ -2741,7 +3241,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-08-20_4_0002045034-25-000003_xslF345X05_wk-form4_1755739920.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000204503425000003/wk-form4_1755739920.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -12000,
+      "personPostTotalShares": 65000,
+      "personPreTotalShares": 77000,
+      "personPrePctOfCompany": 0.0020442805503723604,
+      "personPostPctOfCompany": 0.0017256913736909535,
+      "personPreValue": 2407643.7,
+      "personPostValue": 2032426.5
     },
     {
       "id": "0002045034-25-000003-bernes-2025-08-20-S-106",
@@ -2776,7 +3283,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-08-20_4_0002045034-25-000003_xslF345X05_wk-form4_1755739920.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000204503425000003/wk-form4_1755739920.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -4000,
+      "personPostTotalShares": 61000,
+      "personPreTotalShares": 65000,
+      "personPrePctOfCompany": 0.0017256913736909535,
+      "personPostPctOfCompany": 0.001619494981463818,
+      "personPreValue": 2037698,
+      "personPostValue": 1912301.2
     },
     {
       "id": "0002045034-25-000003-bernes-2025-08-18-S-104",
@@ -2811,7 +3325,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-08-20_4_0002045034-25-000003_xslF345X05_wk-form4_1755739920.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000204503425000003/wk-form4_1755739920.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -4000,
+      "personPostTotalShares": 77000,
+      "personPreTotalShares": 81000,
+      "personPrePctOfCompany": 0.002150476942599496,
+      "personPostPctOfCompany": 0.0020442805503723604,
+      "personPreValue": 2613975.3,
+      "personPostValue": 2484890.0999999996
     },
     {
       "id": "0001857816-25-000103-directors-2025-08-17-A-101",
@@ -2847,7 +3368,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-08-19_4_0001857816-25-000103_xslF345X05_wk-form4_1755598126.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781625000103/wk-form4_1755598126.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 883,
+      "personPostTotalShares": 37041,
+      "personPreTotalShares": 36158,
+      "personPrePctOfCompany": 0.0009599622875371923,
+      "personPostPctOfCompany": 0.0009834051411213324,
+      "personPreValue": 1452828.44,
+      "personPostValue": 1488307.38
     },
     {
       "id": "0002004135-25-000003-directors-2025-08-17-A-102",
@@ -2882,7 +3410,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-08-19_4_0002004135-25-000003_xslF345X05_wk-form4_1755597773.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000200413525000003/wk-form4_1755597773.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 883,
+      "personPostTotalShares": 37924,
+      "personPreTotalShares": 37041,
+      "personPrePctOfCompany": 0.0009834051411213324,
+      "personPostPctOfCompany": 0.0010068479947054727,
+      "personPreValue": 1488307.38,
+      "personPostValue": 1523786.32
     },
     {
       "id": "0001857816-25-000068-directors-2025-05-17-A-98",
@@ -2917,7 +3452,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-05-19_4_0001857816-25-000068_xslF345X05_wk-form4_1747687279.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781625000068/wk-form4_1747687279.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 1509,
+      "personPostTotalShares": 34649,
+      "personPreTotalShares": 33140,
+      "personPrePctOfCompany": 0.000870536876430679,
+      "personPostPctOfCompany": 0.0009101759876718949,
+      "personPreValue": 1331565.2,
+      "personPostValue": 1392196.82
     },
     {
       "id": "0001857816-25-000069-directors-2025-05-17-A-99",
@@ -2953,7 +3495,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-05-19_4_0001857816-25-000069_xslF345X05_wk-form4_1747687293.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781625000069/wk-form4_1747687293.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 1509,
+      "personPostTotalShares": 36158,
+      "personPreTotalShares": 34649,
+      "personPrePctOfCompany": 0.0009101759876718949,
+      "personPostPctOfCompany": 0.0009498150989131108,
+      "personPreValue": 1392196.82,
+      "personPostValue": 1452828.44
     },
     {
       "id": "0001857816-25-000038-wu-2025-04-10-A-90",
@@ -2991,7 +3540,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-04-11_4_0001857816-25-000038_xslF345X05_wk-form4_1744365865.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781625000038/wk-form4_1744365865.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 60000,
+      "personPostTotalShares": 8116732,
+      "personPreTotalShares": 8056732,
+      "personPrePctOfCompany": 0.2010846804067372,
+      "personPostPctOfCompany": 0.20258219587881746,
+      "personPreValue": 323719491.76,
+      "personPostValue": 326130291.76
     },
     {
       "id": "0001857816-25-000039-bernes-2025-04-10-A-91",
@@ -3027,7 +3583,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-04-11_4_0001857816-25-000039_xslF345X05_wk-form4_1744365878.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781625000039/wk-form4_1744365878.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 20000,
+      "personPostTotalShares": 81000,
+      "personPreTotalShares": 61000,
+      "personPrePctOfCompany": 0.0015224740632816096,
+      "personPostPctOfCompany": 0.002021645887308367,
+      "personPreValue": 2450980,
+      "personPostValue": 3254580
     },
     {
       "id": "0001857816-25-000042-wei-2025-04-10-A-96",
@@ -3062,7 +3625,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-04-11_4_0001857816-25-000042_xslF345X05_wk-form4_1744365916.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781625000042/wk-form4_1744365916.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 13000,
+      "personPostTotalShares": 19000,
+      "personPreTotalShares": 6000,
+      "personPrePctOfCompany": 0.00014975154720802715,
+      "personPostPctOfCompany": 0.00047421323282541934,
+      "personPreValue": 241080,
+      "personPostValue": 763420
     },
     {
       "id": "0001857816-25-000041-hao-2025-04-10-M-95",
@@ -3097,7 +3667,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-04-11_4_0001857816-25-000041_xslF345X05_wk-form4_1744365903.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781625000041/wk-form4_1744365903.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 12500,
+      "personPostTotalShares": 807486,
+      "personPreTotalShares": 794986,
+      "personPrePctOfCompany": 0.01984173058478678,
+      "personPostPctOfCompany": 0.020153712974803503,
+      "personPreValue": 31942537.48,
+      "personPostValue": 32444787.48
     },
     {
       "id": "0001857816-25-000040-wan-2025-04-10-M-93",
@@ -3132,7 +3709,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-04-11_4_0001857816-25-000040_xslF345X05_wk-form4_1744365890.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781625000040/wk-form4_1744365890.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 10000,
+      "personPostTotalShares": 823040,
+      "personPreTotalShares": 813040,
+      "personPrePctOfCompany": 0.020292332990335733,
+      "personPostPctOfCompany": 0.02054191890234911,
+      "personPreValue": 32667947.2,
+      "personPostValue": 33069747.2
     },
     {
       "id": "0001857816-25-000041-hao-2025-04-10-A-94",
@@ -3168,7 +3752,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-04-11_4_0001857816-25-000041_xslF345X05_wk-form4_1744365903.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781625000041/wk-form4_1744365903.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 7500,
+      "personPostTotalShares": 794986,
+      "personPreTotalShares": 787486,
+      "personPrePctOfCompany": 0.019654541150776746,
+      "personPostPctOfCompany": 0.01984173058478678,
+      "personPreValue": 31641187.48,
+      "personPostValue": 31942537.48
     },
     {
       "id": "0001857816-25-000040-wan-2025-04-10-A-92",
@@ -3203,7 +3794,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-04-11_4_0001857816-25-000040_xslF345X05_wk-form4_1744365890.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781625000040/wk-form4_1744365890.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 5500,
+      "personPostTotalShares": 813040,
+      "personPreTotalShares": 807540,
+      "personPrePctOfCompany": 0.020155060738728376,
+      "personPostPctOfCompany": 0.020292332990335733,
+      "personPreValue": 32446957.2,
+      "personPostValue": 32667947.2
     },
     {
       "id": "0001857816-25-000043-schrock-2025-04-10-A-97",
@@ -3238,7 +3836,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-04-11_4_0001857816-25-000043_xslF345X05_wk-form4_1744365928.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781625000043/wk-form4_1744365928.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 4000,
+      "personPostTotalShares": 29000,
+      "personPreTotalShares": 25000,
+      "personPrePctOfCompany": 0.0006239647800334465,
+      "personPostPctOfCompany": 0.000723799144838798,
+      "personPreValue": 1004500,
+      "personPostValue": 1165220
     },
     {
       "id": "0001857816-25-000004-directors-2025-02-17-A-87",
@@ -3274,7 +3879,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-02-27_4_0001857816-25-000004_xslF345X05_wk-form4_1740658103.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781625000004/wk-form4_1740658103.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 1392,
+      "personPostTotalShares": 31748,
+      "personPreTotalShares": 30356,
+      "personPrePctOfCompany": 0.0007409024604937243,
+      "personPostPctOfCompany": 0.0007748771681300158,
+      "personPreValue": 1219704.08,
+      "personPostValue": 1275634.64
     },
     {
       "id": "0001857816-25-000005-directors-2025-02-17-A-88",
@@ -3309,7 +3921,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2025-02-27_4_0001857816-25-000005_xslF345X05_wk-form4_1740658117.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781625000005/wk-form4_1740658117.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 1392,
+      "personPostTotalShares": 33140,
+      "personPreTotalShares": 31748,
+      "personPrePctOfCompany": 0.0007748771681300158,
+      "personPostPctOfCompany": 0.0008088518757663072,
+      "personPreValue": 1275634.64,
+      "personPostValue": 1331565.2
     },
     {
       "id": "0001857816-24-000239-bernes-2024-12-27-P-86",
@@ -3344,7 +3963,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-12-31_4_0001857816-24-000239_xslF345X05_wk-form4_1735644877.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000239/wk-form4_1735644877.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 5000,
+      "personPostTotalShares": 61000,
+      "personPreTotalShares": 56000,
+      "personPrePctOfCompany": 0.0013667985830691975,
+      "personPostPctOfCompany": 0.0014888341708432329,
+      "personPreValue": 980000,
+      "personPostValue": 1067500
     },
     {
       "id": "0001857816-24-000235-wan-2024-12-17-S-85",
@@ -3381,7 +4007,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-12-17_4_0001857816-24-000235_xslF345X05_wk-form4_1734488248.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000235/wk-form4_1734488248.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -1097,
+      "personPostTotalShares": 807540,
+      "personPreTotalShares": 808637,
+      "personPrePctOfCompany": 0.019736498318166547,
+      "personPostPctOfCompany": 0.019709723710208925,
+      "personPreValue": 16213171.850000001,
+      "personPostValue": 16191177
     },
     {
       "id": "0001857816-24-000235-wan-2024-12-16-S-84",
@@ -3419,7 +4052,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-12-17_4_0001857816-24-000235_xslF345X05_wk-form4_1734488248.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000235/wk-form4_1734488248.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -68437,
+      "personPostTotalShares": 808637,
+      "personPreTotalShares": 877074,
+      "personPrePctOfCompany": 0.02140684822226488,
+      "personPostPctOfCompany": 0.019736498318166547,
+      "personPreValue": 17917795.586226165,
+      "personPostValue": 16519692.146226164
     },
     {
       "id": "0001857816-24-000233-lin-2024-12-06-S-83",
@@ -3459,7 +4099,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-12-12_4_0001857816-24-000233_xslF345X05_wk-form4_1734046362.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000233/wk-form4_1734046362.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -2663076,
+      "personPreTotalShares": 4069889,
+      "personPostTotalShares": 1406813,
+      "personPrePctOfCompany": 0.09933425925801631,
+      "personPostPctOfCompany": 0.03433625026863084,
+      "personPreValue": 88723580.2,
+      "personPostValue": 30668523.400000002
     },
     {
       "id": "0001857816-24-000231-wan-2024-12-06-S-82",
@@ -3497,7 +4144,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-12-10_4_A_0001857816-24-000231_xslF345X05_wk-form4a_1733838707.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000231/wk-form4a_1733838707.xml"
       },
-      "isAmendment": true
+      "isAmendment": true,
+      "personDeltaShares": -80000,
+      "personPostTotalShares": 877074,
+      "personPreTotalShares": 957074,
+      "personPrePctOfCompany": 0.023359417626649448,
+      "personPostPctOfCompany": 0.02140684822226488,
+      "personPreValue": 21189618.36,
+      "personPostValue": 19418418.36
     },
     {
       "id": "0001857816-24-000222-directors-2024-11-17-A-78",
@@ -3532,7 +4186,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-11-18_4_0001857816-24-000222_xslF345X05_wk-form4_1731974309.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000222/wk-form4_1731974309.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 1366,
+      "personPostTotalShares": 28990,
+      "personPreTotalShares": 27624,
+      "personPrePctOfCompany": 0.0006742222153339912,
+      "personPostPctOfCompany": 0.0007075623379138577,
+      "personPreValue": 1109932.32,
+      "personPostValue": 1164818.2
     },
     {
       "id": "0001857816-24-000224-directors-2024-11-17-A-80",
@@ -3568,7 +4229,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-11-18_4_0001857816-24-000224_xslF345X05_wk-form4_1731974335.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000224/wk-form4_1731974335.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 1366,
+      "personPostTotalShares": 30356,
+      "personPreTotalShares": 28990,
+      "personPrePctOfCompany": 0.0007075623379138577,
+      "personPostPctOfCompany": 0.0007409024604937243,
+      "personPreValue": 1164818.2,
+      "personPostValue": 1219704.08
     },
     {
       "id": "0001857816-24-000194-directors-2024-08-17-A-75",
@@ -3604,7 +4272,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-08-19_4_0001857816-24-000194_xslF345X05_wk-form4_1724116429.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000194/wk-form4_1724116429.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 1116,
+      "personPostTotalShares": 26508,
+      "personPreTotalShares": 25392,
+      "personPrePctOfCompany": 0.0006138835449956669,
+      "personPostPctOfCompany": 0.0006408642490054008,
+      "personPreValue": 1020250.5599999999,
+      "personPostValue": 1065091.44
     },
     {
       "id": "0001857816-24-000195-directors-2024-08-17-A-76",
@@ -3639,7 +4314,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-08-19_4_0001857816-24-000195_xslF345X05_wk-form4_1724116441.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000195/wk-form4_1724116441.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 1116,
+      "personPostTotalShares": 27624,
+      "personPreTotalShares": 26508,
+      "personPrePctOfCompany": 0.0006408642490054008,
+      "personPostPctOfCompany": 0.0006678449530151348,
+      "personPreValue": 1065091.44,
+      "personPostValue": 1109932.32
     },
     {
       "id": "0001857816-24-000172-lin-2024-06-28-S-74",
@@ -3681,7 +4363,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-07-01_4_0001857816-24-000172_xslF345X05_wk-form4_1719879440.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000172/wk-form4_1719879440.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -149693,
+      "personPreTotalShares": 4219582,
+      "personPostTotalShares": 4069889,
+      "personPrePctOfCompany": 0.10294145307960224,
+      "personPostPctOfCompany": 0.09928952382787899,
+      "personPreValue": 127375127.79311676,
+      "personPostValue": 122856394.65681677
     },
     {
       "id": "0001857816-24-000168-lin-2024-06-27-S-72",
@@ -3723,7 +4412,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-06-28_4_0001857816-24-000168_xslF345X05_wk-form4_1719619413.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000168/wk-form4_1719619413.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -93211,
+      "personPreTotalShares": 4312793,
+      "personPostTotalShares": 4219582,
+      "personPrePctOfCompany": 0.1052154403567787,
+      "personPostPctOfCompany": 0.10294145307960224,
+      "personPreValue": 127933354.83185914,
+      "personPostValue": 125168372.61795914
     },
     {
       "id": "0001857816-24-000170-schrock-2024-06-27-S-73",
@@ -3758,7 +4454,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-07-01_4_0001857816-24-000170_xslF345X05_wk-form4_1719835369.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000170/wk-form4_1719835369.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -5000,
+      "personPostTotalShares": 25000,
+      "personPreTotalShares": 30000,
+      "personPrePctOfCompany": 0.0007318837724656298,
+      "personPostPctOfCompany": 0.0006099031437213582,
+      "personPreValue": 906367.68,
+      "personPostValue": 755306.4
     },
     {
       "id": "0001857816-24-000168-lin-2024-06-26-S-71",
@@ -3800,7 +4503,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-06-28_4_0001857816-24-000168_xslF345X05_wk-form4_1719619413.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000168/wk-form4_1719619413.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -134559,
+      "personPreTotalShares": 4447352,
+      "personPostTotalShares": 4312793,
+      "personPrePctOfCompany": 0.10849815864141879,
+      "personPostPctOfCompany": 0.1052154403567787,
+      "personPreValue": 133364456.72343199,
+      "personPostValue": 129329384.183132
     },
     {
       "id": "0001857816-24-000166-lin-2024-06-25-S-70",
@@ -3841,7 +4551,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-06-27_4_0001857816-24-000166_xslF345X05_wk-form4_1719482450.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000166/wk-form4_1719482450.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -81537,
+      "personPreTotalShares": 4528889,
+      "personPostTotalShares": 4447352,
+      "personPrePctOfCompany": 0.11048734554660312,
+      "personPostPctOfCompany": 0.10849815864141879,
+      "personPreValue": 135107561.1453603,
+      "personPostValue": 132675117.95386028
     },
     {
       "id": "0001857816-24-000166-lin-2024-06-24-S-69",
@@ -3882,7 +4599,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-06-27_4_0001857816-24-000166_xslF345X05_wk-form4_1719482450.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000166/wk-form4_1719482450.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -59984,
+      "personPreTotalShares": 4588873,
+      "personPostTotalShares": 4528889,
+      "personPrePctOfCompany": 0.1119507227535224,
+      "personPostPctOfCompany": 0.11048734554660312,
+      "personPreValue": 134286943.92279997,
+      "personPostValue": 132531596.14039999
     },
     {
       "id": "0001857816-24-000164-lin-2024-06-20-S-68",
@@ -3923,7 +4647,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-06-24_4_0001857816-24-000164_xslF345X05_wk-form4_1719280303.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000164/wk-form4_1719280303.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -15993,
+      "personPreTotalShares": 4604866,
+      "personPostTotalShares": 4588873,
+      "personPrePctOfCompany": 0.11234088999262383,
+      "personPostPctOfCompany": 0.1119507227535224,
+      "personPreValue": 138798029.02560002,
+      "personPostValue": 138315974.4168
     },
     {
       "id": "0001857816-24-000162-lin-2024-06-18-S-67",
@@ -3964,7 +4695,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-06-20_4_0001857816-24-000162_xslF345X05_wk-form4_1718920770.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000162/wk-form4_1718920770.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -47772,
+      "personPreTotalShares": 4652638,
+      "personPostTotalShares": 4604866,
+      "personPrePctOfCompany": 0.1135063417118981,
+      "personPostPctOfCompany": 0.11234088999262383,
+      "personPreValue": 139916921.51880002,
+      "personPostValue": 138480293.2716
     },
     {
       "id": "0001857816-24-000162-lin-2024-06-17-S-66",
@@ -4006,7 +4744,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-06-20_4_0001857816-24-000162_xslF345X05_wk-form4_1718920770.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000162/wk-form4_1718920770.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -130607,
+      "personPreTotalShares": 4783245,
+      "personPostTotalShares": 4652638,
+      "personPrePctOfCompany": 0.11669264650757871,
+      "personPostPctOfCompany": 0.1135063417118981,
+      "personPreValue": 144513130.23520717,
+      "personPostValue": 140567184.25070718
     },
     {
       "id": "0001857816-24-000155-lin-2024-06-14-S-65",
@@ -4048,7 +4793,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-06-17_4_0001857816-24-000155_xslF345X05_wk-form4_1718660852.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000155/wk-form4_1718660852.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -107818,
+      "personPreTotalShares": 4891063,
+      "personPostTotalShares": 4783245,
+      "personPrePctOfCompany": 0.11932298799356869,
+      "personPostPctOfCompany": 0.11669264650757871,
+      "personPreValue": 151602710.52797654,
+      "personPostValue": 148260798.75057656
     },
     {
       "id": "0001857816-24-000155-lin-2024-06-13-S-64",
@@ -4091,7 +4843,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-06-17_4_0001857816-24-000155_xslF345X05_wk-form4_1718660852.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000155/wk-form4_1718660852.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -87045,
+      "personPreTotalShares": 4978108,
+      "personPostTotalShares": 4891063,
+      "personPrePctOfCompany": 0.12144654875937771,
+      "personPostPctOfCompany": 0.11932298799356869,
+      "personPreValue": 160450765.00671813,
+      "personPostValue": 157645193.72541812
     },
     {
       "id": "0001857816-24-000153-lin-2024-06-12-S-63",
@@ -4133,7 +4892,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-06-13_4_0001857816-24-000153_xslF345X05_wk-form4_1718316383.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000153/wk-form4_1718316383.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -91781,
+      "personPreTotalShares": 5069889,
+      "personPostTotalShares": 4978108,
+      "personPrePctOfCompany": 0.12368564957673332,
+      "personPostPctOfCompany": 0.12144654875937771,
+      "personPreValue": 165409917.6237769,
+      "personPostValue": 162415475.80277693
     },
     {
       "id": "0001857816-24-000153-lin-2024-06-11-S-62",
@@ -4175,7 +4941,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-06-13_4_0001857816-24-000153_xslF345X05_wk-form4_1718316383.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000153/wk-form4_1718316383.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -175178,
+      "personPreTotalShares": 5245067,
+      "personPostTotalShares": 5069889,
+      "personPrePctOfCompany": 0.12795931409316613,
+      "personPostPctOfCompany": 0.12368564957673332,
+      "personPreValue": 173921857.24698713,
+      "personPostValue": 168113107.21408713
     },
     {
       "id": "0001857816-24-000140-lin-2024-05-17-S-57",
@@ -4217,7 +4990,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-05-20_4_0001857816-24-000140_xslF345X05_wk-form4_1716251789.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000140/wk-form4_1716251789.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -149864,
+      "personPreTotalShares": 5394931,
+      "personPostTotalShares": 5245067,
+      "personPrePctOfCompany": 0.1316154150823924,
+      "personPostPctOfCompany": 0.12795931409316613,
+      "personPreValue": 201622603.12884486,
+      "personPostValue": 196021795.66804487
     },
     {
       "id": "0001857816-24-000149-wu-2024-05-17-S-61",
@@ -4258,7 +5038,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-05-21_4_0001857816-24-000149_xslF345X05_wk-form4_1716290608.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000149/wk-form4_1716290608.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -14190,
+      "personPostTotalShares": 8056732,
+      "personPreTotalShares": 8070922,
+      "personPrePctOfCompany": 0.19689922802119486,
+      "personPostPctOfCompany": 0.19655304699681864,
+      "personPreValue": 297654090.4176096,
+      "personPostValue": 297130765.87760955
     },
     {
       "id": "0001857816-24-000145-directors-2024-05-17-A-58",
@@ -4293,7 +5080,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-05-21_4_0001857816-24-000145_xslF345X05_wk-form4_1716286190.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000145/wk-form4_1716286190.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 699,
+      "personPostTotalShares": 24693,
+      "personPreTotalShares": 23994,
+      "personPrePctOfCompany": 0.0005853606412180107,
+      "personPostPctOfCompany": 0.0006024135331164599,
+      "personPreValue": 964078.92,
+      "personPostValue": 992164.74
     },
     {
       "id": "0001857816-24-000147-directors-2024-05-17-A-60",
@@ -4329,7 +5123,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-05-21_4_0001857816-24-000147_xslF345X05_wk-form4_1716286218.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000147/wk-form4_1716286218.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 699,
+      "personPostTotalShares": 25392,
+      "personPreTotalShares": 24693,
+      "personPrePctOfCompany": 0.0006024135331164599,
+      "personPostPctOfCompany": 0.0006194664250149091,
+      "personPreValue": 992164.74,
+      "personPostValue": 1020250.5599999999
     },
     {
       "id": "0001857816-24-000140-lin-2024-05-16-S-56",
@@ -4370,7 +5171,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-05-20_4_0001857816-24-000140_xslF345X05_wk-form4_1716251789.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000140/wk-form4_1716251789.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -40134,
+      "personPreTotalShares": 5435065,
+      "personPostTotalShares": 5394931,
+      "personPrePctOfCompany": 0.13259452919319695,
+      "personPostPctOfCompany": 0.1316154150823924,
+      "personPreValue": 196797502.98484874,
+      "personPostValue": 195344296.63224873
     },
     {
       "id": "0001857816-24-000138-wu-2024-05-16-S-55",
@@ -4411,7 +5219,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-05-17_4_0001857816-24-000138_xslF345X05_wk-form4_1715995488.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000138/wk-form4_1715995488.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -14188,
+      "personPostTotalShares": 8070922,
+      "personPreTotalShares": 8085110,
+      "personPrePctOfCompany": 0.19724536025331962,
+      "personPostPctOfCompany": 0.19689922802119486,
+      "personPreValue": 291583417.4902453,
+      "personPostValue": 291071737.9302453
     },
     {
       "id": "0001857816-24-000136-lin-2024-05-15-S-53",
@@ -4455,7 +5270,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-05-16_4_0001857816-24-000136_xslF345X05_wk-form4_1715907632.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000136/wk-form4_1715907632.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -141938,
+      "personPreTotalShares": 5577003,
+      "personPostTotalShares": 5435065,
+      "personPrePctOfCompany": 0.13605726648973784,
+      "personPostPctOfCompany": 0.13259452919319695,
+      "personPreValue": 205324177.88119498,
+      "personPostValue": 200098557.030695
     },
     {
       "id": "0001857816-24-000138-wu-2024-05-15-S-54",
@@ -4496,7 +5318,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-05-17_4_0001857816-24-000138_xslF345X05_wk-form4_1715995488.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000138/wk-form4_1715995488.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -14188,
+      "personPostTotalShares": 8085110,
+      "personPreTotalShares": 8099298,
+      "personPrePctOfCompany": 0.19759149248544436,
+      "personPostPctOfCompany": 0.19724536025331962,
+      "personPreValue": 286776989.97758245,
+      "personPostValue": 286274626.4475825
     },
     {
       "id": "0001857816-24-000136-lin-2024-05-14-S-52",
@@ -4537,7 +5366,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-05-16_4_0001857816-24-000136_xslF345X05_wk-form4_1715907632.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000136/wk-form4_1715907632.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -92886,
+      "personPreTotalShares": 5669889,
+      "personPostTotalShares": 5577003,
+      "personPrePctOfCompany": 0.1383233250260459,
+      "personPostPctOfCompany": 0.13605726648973784,
+      "personPreValue": 208550424.1869,
+      "personPostValue": 205133882.0463
     },
     {
       "id": "0001857816-24-000132-hao-2024-05-14-S-49",
@@ -4572,7 +5408,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-05-14_4_0001857816-24-000132_xslF345X05_wk-form4_1715737905.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000132/wk-form4_1715737905.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -67455,
+      "personPostTotalShares": 787486,
+      "personPreTotalShares": 854941,
+      "personPrePctOfCompany": 0.020857248143851266,
+      "personPostPctOfCompany": 0.0192116074814623,
+      "personPreValue": 31694885.7166,
+      "personPostValue": 29194153.4836
     },
     {
       "id": "0001857816-24-000134-wu-2024-05-14-S-51",
@@ -4612,7 +5455,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-05-15_4_0001857816-24-000134_xslF345X05_wk-form4_1715823993.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000134/wk-form4_1715823993.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -14188,
+      "personPostTotalShares": 8099298,
+      "personPreTotalShares": 8113486,
+      "personPrePctOfCompany": 0.1979376247175691,
+      "personPostPctOfCompany": 0.19759149248544436,
+      "personPreValue": 297130359.5757767,
+      "personPostValue": 296610769.6557767
     },
     {
       "id": "0001857816-24-000132-hao-2024-05-13-S-48",
@@ -4647,7 +5497,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-05-14_4_0001857816-24-000132_xslF345X05_wk-form4_1715737905.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000132/wk-form4_1715737905.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -282545,
+      "personPostTotalShares": 854941,
+      "personPreTotalShares": 1137486,
+      "personPrePctOfCompany": 0.027750251493561313,
+      "personPostPctOfCompany": 0.020857248143851266,
+      "personPreValue": 41063027.352634035,
+      "personPostValue": 30863206.815634035
     },
     {
       "id": "0001857816-24-000134-wu-2024-05-13-S-50",
@@ -4687,7 +5544,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-05-15_4_0001857816-24-000134_xslF345X05_wk-form4_1715823993.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000134/wk-form4_1715823993.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -14188,
+      "personPostTotalShares": 8113486,
+      "personPreTotalShares": 8127674,
+      "personPrePctOfCompany": 0.19828375694969386,
+      "personPostPctOfCompany": 0.1979376247175691,
+      "personPreValue": 294635194.2514632,
+      "personPostValue": 294120867.01146317
     },
     {
       "id": "0001857816-24-000130-wu-2024-05-10-S-47",
@@ -4728,7 +5592,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-05-13_4_0001857816-24-000130_xslF345X05_wk-form4_1715651443.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000130/wk-form4_1715651443.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -118874,
+      "personPostTotalShares": 8127674,
+      "personPreTotalShares": 8246548,
+      "personPrePctOfCompany": 0.20118382200196316,
+      "personPostPctOfCompany": 0.19828375694969386,
+      "personPreValue": 310832826.3068739,
+      "personPostValue": 306352170.7168739
     },
     {
       "id": "0001857816-24-000130-wu-2024-05-09-S-46",
@@ -4771,7 +5642,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-05-13_4_0001857816-24-000130_xslF345X05_wk-form4_1715651443.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000130/wk-form4_1715651443.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -120000,
+      "personPostTotalShares": 8246548,
+      "personPreTotalShares": 8366548,
+      "personPrePctOfCompany": 0.20411135709182568,
+      "personPostPctOfCompany": 0.20118382200196316,
+      "personPreValue": 317165279.58248574,
+      "personPostValue": 312616230.9724857
     },
     {
       "id": "0001857816-24-000128-wu-2024-05-08-S-45",
@@ -4811,7 +5689,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-05-09_4_0001857816-24-000128_xslF345X05_wk-form4_1715304438.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000128/wk-form4_1715304438.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -62000,
+      "personPostTotalShares": 8366548,
+      "personPreTotalShares": 8428548,
+      "personPrePctOfCompany": 0.20562391688825465,
+      "personPostPctOfCompany": 0.20411135709182568,
+      "personPreValue": 326768552.5211613,
+      "personPostValue": 324364858.5211613
     },
     {
       "id": "0001857816-24-000128-wu-2024-05-07-S-44",
@@ -4852,7 +5737,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-05-09_4_0001857816-24-000128_xslF345X05_wk-form4_1715304438.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000128/wk-form4_1715304438.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -62000,
+      "personPostTotalShares": 8428548,
+      "personPreTotalShares": 8490548,
+      "personPrePctOfCompany": 0.2071364766846836,
+      "personPostPctOfCompany": 0.20562391688825465,
+      "personPreValue": 336429120.6356477,
+      "personPostValue": 333972435.2156477
     },
     {
       "id": "0001857816-24-000119-wu-2024-05-06-S-43",
@@ -4893,7 +5785,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-05-07_4_0001857816-24-000119_xslF345X05_wk-form4_1715133047.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000119/wk-form4_1715133047.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -44000,
+      "personPostTotalShares": 8490548,
+      "personPreTotalShares": 8534548,
+      "personPrePctOfCompany": 0.2082099062176332,
+      "personPostPctOfCompany": 0.2071364766846836,
+      "personPreValue": 343189329.72171,
+      "personPostValue": 341420011.59171
     },
     {
       "id": "0001857816-24-000119-wu-2024-05-03-S-42",
@@ -4934,7 +5833,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-05-07_4_0001857816-24-000119_xslF345X05_wk-form4_1715133047.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000119/wk-form4_1715133047.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -44000,
+      "personPostTotalShares": 8534548,
+      "personPreTotalShares": 8578548,
+      "personPrePctOfCompany": 0.2092833357505828,
+      "personPostPctOfCompany": 0.2082099062176332,
+      "personPreValue": 314280342.79362,
+      "personPostValue": 312668375.93362
     },
     {
       "id": "0001857816-24-000117-wu-2024-05-02-S-41",
@@ -4976,7 +5882,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-05-03_4_0001857816-24-000117_xslF345X05_wk-form4_1714783651.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000117/wk-form4_1714783651.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -44000,
+      "personPostTotalShares": 8578548,
+      "personPreTotalShares": 8622548,
+      "personPrePctOfCompany": 0.2103567652835324,
+      "personPostPctOfCompany": 0.2092833357505828,
+      "personPreValue": 291935128.3399199,
+      "personPostValue": 290445412.57991993
     },
     {
       "id": "0001857816-24-000117-wu-2024-05-01-S-40",
@@ -5016,7 +5929,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-05-03_4_0001857816-24-000117_xslF345X05_wk-form4_1714783651.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000117/wk-form4_1714783651.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -44000,
+      "personPostTotalShares": 8622548,
+      "personPreTotalShares": 8666548,
+      "personPrePctOfCompany": 0.21143019481648198,
+      "personPostPctOfCompany": 0.2103567652835324,
+      "personPreValue": 273439423.96230996,
+      "personPostValue": 272051174.03230995
     },
     {
       "id": "0001857816-24-000115-wu-2024-04-30-S-39",
@@ -5057,7 +5977,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-05-01_4_0001857816-24-000115_xslF345X05_wk-form4_1714614015.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000115/wk-form4_1714614015.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -44000,
+      "personPostTotalShares": 8666548,
+      "personPreTotalShares": 8710548,
+      "personPrePctOfCompany": 0.21250362434943157,
+      "personPostPctOfCompany": 0.21143019481648198,
+      "personPreValue": 277605972.46536,
+      "personPostValue": 276203688.38535994
     },
     {
       "id": "0001857816-24-000115-wu-2024-04-29-S-38",
@@ -5097,7 +6024,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-05-01_4_0001857816-24-000115_xslF345X05_wk-form4_1714614015.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000115/wk-form4_1714614015.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -44000,
+      "personPostTotalShares": 8710548,
+      "personPreTotalShares": 8754548,
+      "personPrePctOfCompany": 0.21357705388238116,
+      "personPostPctOfCompany": 0.21250362434943157,
+      "personPreValue": 298136291.3136,
+      "personPostValue": 296637870.5136
     },
     {
       "id": "0001857816-24-000113-hao-2024-04-27-A-37",
@@ -5133,7 +6067,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-30_4_0001857816-24-000113_xslF345X05_wk-form4_1714527228.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000113/wk-form4_1714527228.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 14138,
+      "personPostTotalShares": 1137486,
+      "personPreTotalShares": 1123348,
+      "personPrePctOfCompany": 0.02740533906772401,
+      "personPostPctOfCompany": 0.027750251493561313,
+      "personPreValue": 45136122.64,
+      "personPostValue": 45704187.48
     },
     {
       "id": "0001857816-24-000111-wu-2024-04-26-S-36",
@@ -5174,7 +6115,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-29_4_0001857816-24-000111_xslF345X05_wk-form4_1714441738.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000111/wk-form4_1714441738.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -44000,
+      "personPostTotalShares": 8754548,
+      "personPreTotalShares": 8798548,
+      "personPrePctOfCompany": 0.21465048341533075,
+      "personPostPctOfCompany": 0.21357705388238116,
+      "personPreValue": 315806045.40327,
+      "personPostValue": 314226754.59327
     },
     {
       "id": "0001857816-24-000111-wu-2024-04-25-S-35",
@@ -5215,7 +6163,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-29_4_0001857816-24-000111_xslF345X05_wk-form4_1714441738.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000111/wk-form4_1714441738.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -44000,
+      "personPostTotalShares": 8798548,
+      "personPreTotalShares": 8842548,
+      "personPrePctOfCompany": 0.21572391294828033,
+      "personPostPctOfCompany": 0.21465048341533075,
+      "personPreValue": 319376710.17759,
+      "personPostValue": 317787510.40759003
     },
     {
       "id": "0001857816-24-000109-wu-2024-04-24-S-34",
@@ -5256,7 +6211,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-26_4_0001857816-24-000109_xslF345X05_wk-form4_1714180978.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000109/wk-form4_1714180978.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -44000,
+      "personPostTotalShares": 8842548,
+      "personPreTotalShares": 8886548,
+      "personPrePctOfCompany": 0.21679734248122992,
+      "personPostPctOfCompany": 0.21572391294828033,
+      "personPreValue": 324706869.9608,
+      "personPostValue": 323099147.5608
     },
     {
       "id": "0001857816-24-000107-wu-2024-04-23-S-33",
@@ -5297,7 +6259,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-24_4_0001857816-24-000107_xslF345X05_wk-form4_1714008478.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000107/wk-form4_1714008478.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -44000,
+      "personPostTotalShares": 8886548,
+      "personPreTotalShares": 8930548,
+      "personPrePctOfCompany": 0.2178707720141795,
+      "personPostPctOfCompany": 0.21679734248122992,
+      "personPreValue": 324735095.04811996,
+      "personPostValue": 323135154.68811995
     },
     {
       "id": "0001857816-24-000107-wu-2024-04-22-S-32",
@@ -5339,7 +6308,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-24_4_0001857816-24-000107_xslF345X05_wk-form4_1714008478.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000107/wk-form4_1714008478.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -44000,
+      "personPostTotalShares": 8930548,
+      "personPreTotalShares": 8974548,
+      "personPrePctOfCompany": 0.2199783005907432,
+      "personPostPctOfCompany": 0.21889980112469845,
+      "personPreValue": 322935378.72156,
+      "personPostValue": 321352106.04156
     },
     {
       "id": "0001857816-24-000099-wu-2024-04-19-S-31",
@@ -5379,7 +6355,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-23_4_0001857816-24-000099_xslF345X05_wk-form4_1713923033.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000099/wk-form4_1713923033.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -29823,
+      "personPostTotalShares": 8974548,
+      "personPreTotalShares": 9004371,
+      "personPrePctOfCompany": 0.220709302626558,
+      "personPostPctOfCompany": 0.2199783005907432,
+      "personPreValue": 311073826.4981018,
+      "personPostValue": 310043531.9081018
     },
     {
       "id": "0001857816-24-000097-wu-2024-04-19-S-30",
@@ -5421,7 +6404,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-22_4_0001857816-24-000097_xslF345X05_wk-form4_1713837174.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000097/wk-form4_1713837174.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -14177,
+      "personPostTotalShares": 9004371,
+      "personPreTotalShares": 9018548,
+      "personPrePctOfCompany": 0.2210568000567879,
+      "personPostPctOfCompany": 0.220709302626558,
+      "personPreValue": 325545021.45851165,
+      "personPostValue": 325033270.3685116
     },
     {
       "id": "0001857816-24-000097-wu-2024-04-18-S-29",
@@ -5464,7 +6454,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-22_4_0001857816-24-000097_xslF345X05_wk-form4_1713837174.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000097/wk-form4_1713837174.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -44000,
+      "personPostTotalShares": 9018548,
+      "personPreTotalShares": 9062548,
+      "personPrePctOfCompany": 0.22213529952283262,
+      "personPostPctOfCompany": 0.2210568000567879,
+      "personPreValue": 330515625.93895,
+      "personPostValue": 328910924.08895004
     },
     {
       "id": "0001857816-24-000095-wu-2024-04-17-S-28",
@@ -5505,7 +6502,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-18_4_0001857816-24-000095_xslF345X05_wk-form4_1713489808.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000095/wk-form4_1713489808.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -44000,
+      "personPostTotalShares": 9062548,
+      "personPreTotalShares": 9106548,
+      "personPrePctOfCompany": 0.22321379898887733,
+      "personPostPctOfCompany": 0.22213529952283262,
+      "personPreValue": 315195141.89721,
+      "personPostValue": 313672217.26720995
     },
     {
       "id": "0001857816-24-000095-wu-2024-04-16-S-27",
@@ -5545,7 +6549,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-18_4_0001857816-24-000095_xslF345X05_wk-form4_1713489808.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000095/wk-form4_1713489808.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -44000,
+      "personPostTotalShares": 9106548,
+      "personPreTotalShares": 9150548,
+      "personPrePctOfCompany": 0.22429229845492205,
+      "personPostPctOfCompany": 0.22321379898887733,
+      "personPreValue": 295929789.19071,
+      "personPostValue": 294506824.06071
     },
     {
       "id": "0001857816-24-000093-wu-2024-04-15-S-26",
@@ -5586,7 +6597,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-16_4_0001857816-24-000093_xslF345X05_wk-form4_1713317995.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000093/wk-form4_1713317995.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -44000,
+      "personPostTotalShares": 9150548,
+      "personPreTotalShares": 9194548,
+      "personPrePctOfCompany": 0.2253707979209668,
+      "personPostPctOfCompany": 0.22429229845492205,
+      "personPreValue": 299377698.88212997,
+      "personPostValue": 297945043.49213
     },
     {
       "id": "0001857816-24-000093-wu-2024-04-12-S-25",
@@ -5625,7 +6643,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-16_4_0001857816-24-000093_xslF345X05_wk-form4_1713317995.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000093/wk-form4_1713317995.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -1000,
+      "personPostTotalShares": 9194548,
+      "personPreTotalShares": 9195548,
+      "personPrePctOfCompany": 0.2253953092724678,
+      "personPostPctOfCompany": 0.2253707979209668,
+      "personPreValue": 296372512.03999996,
+      "personPostValue": 296340282.03999996
     },
     {
       "id": "0001857816-24-000091-wu-2024-04-11-S-24",
@@ -5665,7 +6690,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-12_4_0001857816-24-000091_xslF345X05_wk-form4_1712969091.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000091/wk-form4_1712969091.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -20000,
+      "personPostTotalShares": 9195548,
+      "personPreTotalShares": 9215548,
+      "personPrePctOfCompany": 0.22588553630248812,
+      "personPostPctOfCompany": 0.2253953092724678,
+      "personPreValue": 312731197.23870796,
+      "personPostValue": 312052493.81870794
     },
     {
       "id": "0001857816-24-000091-wu-2024-04-10-A-22",
@@ -5703,7 +6735,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-12_4_0001857816-24-000091_xslF345X05_wk-form4_1712969091.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000091/wk-form4_1712969091.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 100000,
+      "personPostTotalShares": 9216548,
+      "personPreTotalShares": 9116548,
+      "personPrePctOfCompany": 0.2234589125038875,
+      "personPostPctOfCompany": 0.22591004765398914,
+      "personPreValue": 366302898.64,
+      "personPostValue": 370320898.64
     },
     {
       "id": "0001857816-24-000089-lau-2024-04-10-A-20",
@@ -5738,7 +6777,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-12_4_0001857816-24-000089_xslF345X05_wk-form4_1712969065.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000089/wk-form4_1712969065.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 28000,
+      "personPostTotalShares": 55803,
+      "personPreTotalShares": 27803,
+      "personPrePctOfCompany": 0.0006814891057827573,
+      "personPostPctOfCompany": 0.0013678069478112148,
+      "personPreValue": 1117124.54,
+      "personPostValue": 2242164.54
     },
     {
       "id": "0001857816-24-000090-hao-2024-04-10-A-21",
@@ -5774,7 +6820,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-12_4_0001857816-24-000090_xslF345X05_wk-form4_1712969078.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000090/wk-form4_1712969078.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 12500,
+      "personPostTotalShares": 1123348,
+      "personPreTotalShares": 1110848,
+      "personPrePctOfCompany": 0.027228385792200997,
+      "personPostPctOfCompany": 0.027534777685963702,
+      "personPreValue": 44633872.64,
+      "personPostValue": 45136122.64
     },
     {
       "id": "0001857816-24-000087-schrock-2024-04-10-A-18",
@@ -5809,7 +6862,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-12_4_0001857816-24-000087_xslF345X05_wk-form4_1712969037.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000087/wk-form4_1712969037.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 10000,
+      "personPostTotalShares": 30000,
+      "personPreTotalShares": 20000,
+      "personPrePctOfCompany": 0.0004902270300203268,
+      "personPostPctOfCompany": 0.0007353405450304902,
+      "personPreValue": 803600,
+      "personPostValue": 1205400
     },
     {
       "id": "0001857816-24-000088-wan-2024-04-10-A-19",
@@ -5846,7 +6906,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-12_4_0001857816-24-000088_xslF345X05_wk-form4_1712969050.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000088/wk-form4_1712969050.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 10000,
+      "personPostTotalShares": 957074,
+      "personPreTotalShares": 947074,
+      "personPrePctOfCompany": 0.023214063711473547,
+      "personPostPctOfCompany": 0.02345917722648371,
+      "personPreValue": 38053433.32,
+      "personPostValue": 38455233.32
     },
     {
       "id": "0001857816-24-000091-wu-2024-04-10-S-23",
@@ -5885,7 +6952,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-12_4_0001857816-24-000091_xslF345X05_wk-form4_1712969091.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000091/wk-form4_1712969091.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -1000,
+      "personPostTotalShares": 9215548,
+      "personPreTotalShares": 9216548,
+      "personPrePctOfCompany": 0.22591004765398914,
+      "personPostPctOfCompany": 0.22588553630248812,
+      "personPreValue": 293639219.28,
+      "personPostValue": 293607359.28
     },
     {
       "id": "0001857816-24-000079-wu-2024-04-09-S-17",
@@ -5924,7 +6998,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-11_4_0001857816-24-000079_xslF345X05_wk-form4_1712886058.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000079/wk-form4_1712886058.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -1000,
+      "personPostTotalShares": 9116548,
+      "personPreTotalShares": 9117548,
+      "personPrePctOfCompany": 0.22348342385538852,
+      "personPostPctOfCompany": 0.2234589125038875,
+      "personPreValue": 290393903.8,
+      "personPostValue": 290362053.8
     },
     {
       "id": "0001857816-24-000077-wu-2024-04-08-S-16",
@@ -5963,7 +7044,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-09_4_0001857816-24-000077_xslF345X05_wk-form4_1712712990.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000077/wk-form4_1712712990.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -20000,
+      "personPostTotalShares": 9117548,
+      "personPreTotalShares": 9137548,
+      "personPrePctOfCompany": 0.22397365088540885,
+      "personPostPctOfCompany": 0.22348342385538852,
+      "personPreValue": 302178712.36,
+      "personPostValue": 301517312.36
     },
     {
       "id": "0001857816-24-000077-wu-2024-04-05-S-15",
@@ -6003,7 +7091,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-09_4_0001857816-24-000077_xslF345X05_wk-form4_1712712990.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000077/wk-form4_1712712990.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -37178,
+      "personPostTotalShares": 9137548,
+      "personPreTotalShares": 9174726,
+      "personPrePctOfCompany": 0.22488493391151362,
+      "personPostPctOfCompany": 0.22397365088540885,
+      "personPreValue": 325620926.48794556,
+      "personPostValue": 324301439.1479456
     },
     {
       "id": "0001857816-24-000075-wu-2024-04-04-S-14",
@@ -6044,7 +7139,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-05_4_0001857816-24-000075_xslF345X05_wk-form4_1712365040.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000075/wk-form4_1712365040.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -20000,
+      "personPostTotalShares": 9174726,
+      "personPreTotalShares": 9194726,
+      "personPrePctOfCompany": 0.22537516094153395,
+      "personPostPctOfCompany": 0.22488493391151362,
+      "personPreValue": 334613303.16047955,
+      "personPostValue": 333885465.6954795
     },
     {
       "id": "0001857816-24-000075-wu-2024-04-03-S-13",
@@ -6085,7 +7187,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-05_4_0001857816-24-000075_xslF345X05_wk-form4_1712365040.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000075/wk-form4_1712365040.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -10000,
+      "personPostTotalShares": 9194726,
+      "personPreTotalShares": 9204726,
+      "personPrePctOfCompany": 0.22562027445654412,
+      "personPostPctOfCompany": 0.22537516094153395,
+      "personPreValue": 330106211.14065236,
+      "personPostValue": 329747584.2666524
     },
     {
       "id": "0001857816-24-000073-wu-2024-04-02-S-12",
@@ -6123,7 +7232,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-03_4_0001857816-24-000073_xslF345X05_wk-form4_1712190230.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000073/wk-form4_1712190230.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -1000,
+      "personPostTotalShares": 9204726,
+      "personPreTotalShares": 9205726,
+      "personPrePctOfCompany": 0.22564478580804515,
+      "personPostPctOfCompany": 0.22562027445654412,
+      "personPreValue": 283841070.3306,
+      "personPostValue": 283810237.2306
     },
     {
       "id": "0001857816-24-000073-wu-2024-04-01-S-11",
@@ -6161,7 +7277,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-03_4_0001857816-24-000073_xslF345X05_wk-form4_1712190230.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000073/wk-form4_1712190230.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -1000,
+      "personPostTotalShares": 9205726,
+      "personPreTotalShares": 9206726,
+      "personPrePctOfCompany": 0.22566929715954614,
+      "personPostPctOfCompany": 0.22564478580804515,
+      "personPreValue": 271849760.61980003,
+      "personPostValue": 271820233.3198
     },
     {
       "id": "0001857816-24-000071-wan-2024-03-28-S-10",
@@ -6196,7 +7319,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-04-01_4_0001857816-24-000071_xslF345X05_wk-form4_1712023177.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000071/wk-form4_1712023177.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -150000,
+      "personPostTotalShares": 947074,
+      "personPreTotalShares": 1097074,
+      "personPrePctOfCompany": 0.026890766436626,
+      "personPostPctOfCompany": 0.023214063711473547,
+      "personPreValue": 29904111.841970667,
+      "personPostValue": 25815402.44197067
     },
     {
       "id": "0001857816-24-000069-lin-2024-03-28-S-7",
@@ -6237,7 +7367,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-03-29_4_0001857816-24-000069_xslF345X05_wk-form4_1711756769.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000069/wk-form4_1711756769.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -94413,
+      "personPreTotalShares": 5764302,
+      "personPostTotalShares": 5669889,
+      "personPrePctOfCompany": 0.14129083248001148,
+      "personPostPctOfCompany": 0.13897664225074602,
+      "personPreValue": 157828715.39687482,
+      "personPostValue": 155243652.62487483
     },
     {
       "id": "0002004141-24-000002-hao-2024-03-28-S-9",
@@ -6272,7 +7409,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-03-29_4_0002004141-24-000002_xslF345X05_wk-form4_1711728357.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000200414124000002/wk-form4_1711728357.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -38064,
+      "personPostTotalShares": 1110848,
+      "personPreTotalShares": 1148912,
+      "personPrePctOfCompany": 0.028161385875735682,
+      "personPostPctOfCompany": 0.027228385792200997,
+      "personPreValue": 31908484.99887129,
+      "personPostValue": 30851341.742471293
     },
     {
       "id": "0001962329-24-000002-wu-2024-03-26-S-8",
@@ -6310,7 +7454,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-03-29_4_0001962329-24-000002_xslF345X05_wk-form4_1711728280.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000196232924000002/wk-form4_1711728280.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -6,
+      "personPostTotalShares": 9206726,
+      "personPreTotalShares": 9206732,
+      "personPrePctOfCompany": 0.22566944422765517,
+      "personPostPctOfCompany": 0.22566929715954614,
+      "personPreValue": 254474072.48000002,
+      "personPostValue": 254473906.64000002
     },
     {
       "id": "0001857816-24-000056-lin-2024-03-19-S-6",
@@ -6351,7 +7502,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-03-21_4_0001857816-24-000056_xslF345X05_wk-form4_1711072653.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000056/wk-form4_1711072653.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -133097,
+      "personPreTotalShares": 5897399,
+      "personPostTotalShares": 5764302,
+      "personPrePctOfCompany": 0.14455321983074226,
+      "personPostPctOfCompany": 0.14129083248001148,
+      "personPreValue": 179176545.6377,
+      "personPostValue": 175132752.6546
     },
     {
       "id": "0001857816-24-000051-lau-2024-03-19-S-4",
@@ -6384,7 +7542,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-03-20_4_0001857816-24-000051_xslF345X05_wk-form4_1710986233.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000051/wk-form4_1710986233.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -2619,
+      "personPostTotalShares": 27803,
+      "personPreTotalShares": 30422,
+      "personPrePctOfCompany": 0.0007456843353639191,
+      "personPostPctOfCompany": 0.0006814891057827573,
+      "personPreValue": 927871,
+      "personPostValue": 847991.5
     },
     {
       "id": "0001857816-24-000053-hao-2024-03-19-S-5",
@@ -6420,7 +7585,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-03-21_4_0001857816-24-000053_xslF345X05_wk-form4_1711016370.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000053/wk-form4_1711016370.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": -1088,
+      "personPostTotalShares": 1148912,
+      "personPreTotalShares": 1150000,
+      "personPrePctOfCompany": 0.02818805422616879,
+      "personPostPctOfCompany": 0.028161385875735682,
+      "personPreValue": 37209055,
+      "personPostValue": 37173851.998399995
     },
     {
       "id": "0001857816-24-000049-wu-2024-03-18-C-3",
@@ -6457,7 +7629,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-03-20_4_0001857816-24-000049_xslF345X05_wk-form4_1710982734.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000049/wk-form4_1710982734.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 0,
+      "personPostTotalShares": 9206732,
+      "personPreTotalShares": 9206732,
+      "personPrePctOfCompany": 0.22566944422765517,
+      "personPostPctOfCompany": 0.22566944422765517,
+      "personPreValue": 369926491.76,
+      "personPostValue": 369926491.76
     },
     {
       "id": "0001857816-24-000026-directors-2024-02-17-A-0",
@@ -6492,7 +7671,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-02-20_4_0001857816-24-000026_xslF345X05_wk-form4_1708482443.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000026/wk-form4_1708482443.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 724,
+      "personPostTotalShares": 23270,
+      "personPreTotalShares": 22546,
+      "personPrePctOfCompany": 0.0005526329309419143,
+      "personPostPctOfCompany": 0.0005703791494286502,
+      "personPreValue": 905898.28,
+      "personPostValue": 934988.6
     },
     {
       "id": "0001857816-24-000028-directors-2024-02-17-A-1",
@@ -6528,7 +7714,14 @@ window.GCT_INSIDER_DATA = {
         "localFile": "2024-02-20_4_0001857816-24-000028_xslF345X05_wk-form4_1708482582.xml",
         "url": "https://www.sec.gov/Archives/edgar/data/1857816/000185781624000028/wk-form4_1708482582.xml"
       },
-      "isAmendment": false
+      "isAmendment": false,
+      "personDeltaShares": 724,
+      "personPostTotalShares": 23994,
+      "personPreTotalShares": 23270,
+      "personPrePctOfCompany": 0.0005703791494286502,
+      "personPostPctOfCompany": 0.000588125367915386,
+      "personPreValue": 934988.6,
+      "personPostValue": 964078.92
     }
   ],
   "plans": [
